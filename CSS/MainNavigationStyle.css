@@ -1,5 +1,17 @@
-#main_navigation {
+ul.main_navigation {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+
+ul.main_navigation {
+    float: left;
+}
+
+ul.main_navigation li a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
 }
