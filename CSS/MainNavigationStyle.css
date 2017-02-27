@@ -28,7 +28,7 @@
 	position: relative;
     }
     .main_navigation_class li {
-	float: left;
+	float: none;
 	display: inline;
     }
     .main_navigation_class li a {
