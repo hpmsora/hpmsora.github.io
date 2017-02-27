@@ -10,11 +10,16 @@
     float: left;
 }
 
-#navC1_id{
+#navC1_id #navC3_id {
     width: 33.33%;
 }
 
+#navC2_id {
+    width: 33.34%
+}
+
 .main_navigation_class li a{
+    width: 100%;
     display: inline-block;
     padding: 14px 16px;
     color: #f2f2f2;
