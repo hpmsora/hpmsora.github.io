@@ -1,4 +1,5 @@
 div.main_wrap {
+    width: 50%;
     margin: auto;
     border: 3px solid black;
 }
