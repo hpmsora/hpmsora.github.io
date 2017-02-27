@@ -24,6 +24,9 @@
 }
 
 @media screen and (max-width:680px) {
+    .main_navigation_class {
+	position: relative;
+    }
     .main_navigation_class li {
 	float: left;
 	display: inline;
