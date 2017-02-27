@@ -1,3 +1,3 @@
 $(function() {
-    $("#MainNavigationEmbedding").load("SECTIONS/MainNavigation.html");
+    $("#MainNavigationEmbedding").load("SECTIONS/MainNavigation.php");
 });
