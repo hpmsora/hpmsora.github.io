@@ -7,7 +7,6 @@
 }
 
 .main_navigation_class li {
-    width: calc(100%/3)
     float: left;
 }
 
