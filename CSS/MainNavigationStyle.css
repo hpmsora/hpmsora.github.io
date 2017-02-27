@@ -3,6 +3,7 @@ ul.main_navigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #333;
 }
 
 ul.main_navigation li {
@@ -11,7 +12,12 @@ ul.main_navigation li {
 
 ul.main_navigation li a{
     display: inline-block;
+    padding: 14px 16px;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
+}
+
+ul.main_navigation li a:hover {
+    background-color: #555;
 }
