@@ -7,6 +7,7 @@ $(document).ready(function() {
 
     $('#main_navigation_class li a').click(function() {
 	var pageName = $(this).attr('href');
+	alert(pageName);
 	$('#content').load('SECTIONS/' + pageName + '.php');
     });
 });
