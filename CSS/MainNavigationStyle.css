@@ -10,12 +10,16 @@
     float: left;
 }
 
-#navC1_id #navC3_id {
+#navC1_id {
     width: 33.33%;
 }
 
 #navC2_id {
-    width: 33.34%
+    width: 33.34%;
+}
+
+#navC3_id {
+    width: 33.33%;
 }
 
 .main_navigation_class li a{
