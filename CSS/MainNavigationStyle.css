@@ -13,6 +13,7 @@
 .main_navigation_class li a{
     display: inline-block;
     padding: 14px 16px;
+    color: #f2f2f2;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
