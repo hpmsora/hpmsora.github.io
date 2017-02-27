@@ -11,6 +11,10 @@
     float: left;
 }
 
+.main_navigation_class li.navC1_class{
+    width: 33.33%;
+}
+
 .main_navigation_class li a{
     display: inline-block;
     padding: 14px 16px;
