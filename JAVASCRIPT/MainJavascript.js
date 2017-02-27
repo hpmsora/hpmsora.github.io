@@ -5,7 +5,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('#content').load('/SECTIONS/HomeContents.php');
 
-    $('ul#main_navigation_id li a').click(function() {
+    $('#main_navigation_id').on('click', 'a', function(e) {
 	alert('Detect');
 	var pageName = $(this).attr('href');
 	alert(pageName);
