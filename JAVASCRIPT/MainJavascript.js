@@ -4,11 +4,12 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#content').load('/SECTIONS/HomeContents.php');
+});
 
-    $('ul.main_navigation_class li').click(function(e) {
+$(document).ready(function() {
+    $('#navC1_id').on("click", function() {
 	alert('Detect');
 	var pageName = $(this).attr('href');
 	alert(pageName);
 	$('#content').load('SECTIONS/' + pageName + '.php');
-    });
 });
