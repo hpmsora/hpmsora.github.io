@@ -4,7 +4,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $('#navC1_id').on("click", function() {
+    $('.main_navigation li a').on("click", function() {
 	alert('Detect');
 	var pageName = $(this).attr('href');
 	alert(pageName);
