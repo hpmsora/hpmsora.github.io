@@ -22,7 +22,7 @@
     width: 33.33%;
 }
 
-.main_navigation_class li a{
+.main_navigation_class li span{
     width: 100%;
     display: inline-block;
     color: #f2f2f2;
@@ -31,7 +31,7 @@
     font-size: 18px;
 }
 
-.main_navigation_class li a:hover {
+.main_navigation_class li span:hover {
     background-color: #555;
 }
 
@@ -44,7 +44,7 @@
 	float: none;
 	display: inline;
     }
-    .main_navigation_class li a {
+    .main_navigation_class li span {
 	display: block;
     }
 }
