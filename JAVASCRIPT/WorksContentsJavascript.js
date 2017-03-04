@@ -1,9 +1,9 @@
 $(document).ready(function() {
     $('<div/>', {
-	'class': 'test',
+	class: 'test_class',
+	id: 'test_id',
+	
 	text: 'Click me!',
-	click: function() {
-	    $(this).toggleClass('test');
-	}
-    }).appendTo('body');
+    }).appendTo('#');
+    $(".work_contents_wrap")
 });
