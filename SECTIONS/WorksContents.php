@@ -1,3 +1,3 @@
 <div class="work_contents_wrap">
-  WorksContents
+   <script rel="text/javascript" src="JAVASCRIPT/WorksContentsJavascript.js"></script>
 </div>
