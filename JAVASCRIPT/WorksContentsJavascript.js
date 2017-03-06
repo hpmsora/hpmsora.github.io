@@ -4,6 +4,6 @@ $(document).ready(function() {
 	id: 'test_id',
 	
 	text: 'Click me!',
-    }).appendTo('#');
+    }).appendTo('#content');
     $(".work_contents_wrap")
 });
