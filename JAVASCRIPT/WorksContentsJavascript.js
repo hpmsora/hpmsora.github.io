@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     console.log("AAAAA");
     
-    JQuery.each($contentsArray, function(index, value) {
+    $.each($contentsArray, function(index, value) {
 	console.log(index);
 	$('<div/>', {
 	    class: 'test_class',
