@@ -6,10 +6,10 @@ $(document).ready(function() {
 	text: "AA"
     }).appendTo('#content');
     $.ajax({
-	url:"https://api.github.com/users/hpmsora/repos",
+	url:'https://api.github.com/users/hpmsora/repos',
 	type:'GET',
 	success: function(data){
-	    $('#content').html($(data).find('#content').html());
+	    console.log(data);
 	}
     });
     $(".work_contents_wrap")
