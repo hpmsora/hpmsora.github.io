@@ -11,6 +11,8 @@ $(document).ready(function() {
 	}
     });
 
+    console.log("AAA");
+    
     $.each(contentsArray, function(index, value) {
 	console.log(index);
 	$('<div/>', {
