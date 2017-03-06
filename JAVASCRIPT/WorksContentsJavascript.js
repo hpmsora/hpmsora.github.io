@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var contentsArray = {};
+    var contentsArray;
     
     $('<div/>', {
 	class: 'test_class',
