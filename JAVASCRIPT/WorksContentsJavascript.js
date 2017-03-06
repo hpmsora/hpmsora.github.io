@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
-    var contentsArray;
-    var i;
+    var contentsArray = [];
 
     $.ajax({
 	url:'https://api.github.com/users/hpmsora/repos',
@@ -12,12 +11,12 @@ $(document).ready(function() {
 	}
     });
 
-    for (i = 0; i < contentsArray.size(); i++) {
+    $.each(contentsArray, function(index, value) {
 	$('<div/>', {
 	    class: 'test_class',
 	    id: 'test_id',
 	    
-	    text: i + ": " + contentsArray[i].get('name')
+	    text: index + ": " + value.get('name')
 	}).appendTo('#content');
-    }
+    });
 });
