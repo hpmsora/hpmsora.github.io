@@ -1,19 +1,19 @@
 $(document).ready(function() {
 
-    var contentsArray = [];
+    var $contentsArray = [];
 
     $.ajax({
 	url:'https://api.github.com/users/hpmsora/repos',
 	type:'GET',
 	success: function(data){
-	    contentsArray = data;
-	    console.log(contentsArray);
+	    $contentsArray = data;
+	    console.log($contentsArray);
 	}
     });
 
     console.log("AAA");
     
-    $.each(contentsArray, function(index, value) {
+    JQuery.each($contentsArray, function(index, value) {
 	console.log(index);
 	$('<div/>', {
 	    class: 'test_class',
