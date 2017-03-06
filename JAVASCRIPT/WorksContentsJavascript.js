@@ -19,5 +19,7 @@ $(document).ready(function() {
 	    
 	    text: index + ": " + value.get('name')
 	}).appendTo('#content');
+
+	return (index == 22);
     });
 });
