@@ -11,7 +11,7 @@ $(document).ready(function() {
 		    class: 'test_class',
 		    id: 'test_id',
 		    
-		    text: index + ": " + value.name
+		    text: (index + 1) + ": " + value.name
 		}).appendTo('#content');
 	    });
 	}
