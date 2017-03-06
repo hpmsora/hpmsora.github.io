@@ -1,13 +1,8 @@
 $(document).ready(function() {
 
     var contentsArray;
-    
-    $('<div/>', {
-	class: 'test_class',
-	id: 'test_id',
-	
-	text: "AAAAA"
-    }).appendTo('#content');
+    var i;
+
     $.ajax({
 	url:'https://api.github.com/users/hpmsora/repos',
 	type:'GET',
@@ -16,4 +11,13 @@ $(document).ready(function() {
 	    console.log(contentsArray);
 	}
     });
+
+    for (i = 0; i < contentsArray.length; i++) {
+	$('<div/>', {
+	    class: 'test_class',
+	    id: 'test_id',
+	    
+	    text: i + ": " + contentsArray[i].get('name')
+	}).appendTo('#content');
+    }
 });
