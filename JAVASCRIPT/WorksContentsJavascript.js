@@ -14,6 +14,7 @@ $(document).ready(function() {
     console.log("AAAAA");
     
     $.each($contentsArray, function(index, value) {
+	console.log("BBBB");
 	console.log(index);
 	$('<div/>', {
 	    class: 'test_class',
