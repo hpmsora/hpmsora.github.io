@@ -3,7 +3,7 @@ $(document).ready(function() {
 	class: 'test_class',
 	id: 'test_id',
 	
-	text: "AA"
+	text: "AAAA"
     }).appendTo('#content');
     $.ajax({
 	url:'https://api.github.com/users/hpmsora/repos',
