@@ -5,19 +5,17 @@ $(document).ready(function() {
 	type:'GET',
 	success: function(data){
 	    $.each(data, function(index, value) {
-		console.log("BBBB");
 		console.log(index);
 		$('<div/>', {
 		    class: 'test_class',
 		    id: 'test_id',
 		    
-		    text: (index + 1) + ": " + value.name
+		    text: $('<a/>', {
+			href: value.html_url,
+			text: (index + 1) + ": " + value.name
+		    })
 		}).appendTo('#content');
 	    });
 	}
     });
-    
-    console.log("AAAAA");
-    
-    
 });
