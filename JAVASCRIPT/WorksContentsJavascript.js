@@ -12,6 +12,7 @@ $(document).ready(function() {
     });
 
     $.each(contentsArray, function(index, value) {
+	console.log(index);
 	$('<div/>', {
 	    class: 'test_class',
 	    id: 'test_id',
