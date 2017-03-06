@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+    var contentsArray = {};
+    
     $('<div/>', {
 	class: 'test_class',
 	id: 'test_id',
@@ -9,7 +12,8 @@ $(document).ready(function() {
 	url:'https://api.github.com/users/hpmsora/repos',
 	type:'GET',
 	success: function(data){
-	    console.log(data);
+	    contentsArray = data;
+	    console.log(contentsArray);
 	}
     });
     $(".work_contents_wrap")
