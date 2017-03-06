@@ -7,5 +7,6 @@
   $(".main_navigation_class li span a").click(function() {
 	var pageName = $(this).attr('data-type');
 	$('#content').load('SECTIONS/' + pageName + '.php');
+	history.pushState(null, null, pageName + '.php');
     });
  </script>
