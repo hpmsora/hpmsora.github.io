@@ -12,7 +12,7 @@ $(document).ready(function() {
 	}
     });
 
-    for (i = 0; i < contentsArray.length; i++) {
+    for (i = 0; i < contentsArray.size(); i++) {
 	$('<div/>', {
 	    class: 'test_class',
 	    id: 'test_id',
