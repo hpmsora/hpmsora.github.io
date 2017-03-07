@@ -13,7 +13,7 @@ $(document).ready(function() {
 		    $('<div/>', {
 			class: 'test_class',
 			id: 'test_id'
-		    }).appendTo('#content'))
+		    }).css({"width":"100%", "height":"200px"}).appendTo('#content'))
 	    });
 	}
     });
