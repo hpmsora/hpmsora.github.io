@@ -18,7 +18,8 @@ $(document).ready(function() {
 			"padding-top":"25%",
 			"border-style":"solid", 
 			"border-width":"1px",
-			"float":"left"}).appendTo('#content'))
+			"float":"left"
+		    }).appendTo('#content'))
 	    });
 	}
     });
