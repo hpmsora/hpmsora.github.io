@@ -13,7 +13,12 @@ $(document).ready(function() {
 		    $('<div/>', {
 			class: 'test_class',
 			id: 'test_id'
-		    }).css({"width":"24%", "padding-top":"25%", "border-style":"solid", "border-width":"1px", "float":"left"}).appendTo('#content'))
+		    }).css({
+			"width":"24%",
+			"padding-top":"25%",
+			"border-style":"solid", 
+			"border-width":"1px",
+			"float":"left"}).appendTo('#content'))
 	    });
 	}
     });
