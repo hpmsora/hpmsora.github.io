@@ -10,7 +10,7 @@ $(document).ready(function() {
 		    href: value.html_url,
 		    text: (index + 1) + ": " + value.name
 		}).appendTo(
-		    $('<div/>', {
+		    $('<div\>', {
 			class: 'WorkContent_OuterWrap_class',
 			id: 'WorkContent_OuterWrap_class'
 		    }).css({
