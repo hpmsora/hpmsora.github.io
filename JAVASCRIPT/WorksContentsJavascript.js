@@ -18,14 +18,14 @@ $(document).ready(function() {
 			"height":"100%",
 			"border-style":"solid", 
 			"border-width":"1px",
-			"float":"left"
 		    }).appendTo(
 			$('<div/>', {
 			    class: 'WorkContent_InnerWrap_class',
 			    id : 'WorkContent_InnerWrap_id'
 			}).css({
 			    "width":"25%",
-			    "padding-style":"25%"
+			    "padding-style":"25%",
+			    "float":"left"
 			}).appendTo('#content')
 		    )
 		)
