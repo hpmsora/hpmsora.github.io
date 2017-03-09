@@ -29,7 +29,10 @@ $(document).ready(function() {
 			    "float":"left",
 			    "padding-bottom":"25%",
 			    "border-style":"solid", 
-			    "border-width":"1px"
+			    "border-width":"1px",
+			    "box-sizing":"border-box",
+			    "-moz-box-sizing":"border-box",
+			    "-webkit-box-sizing":"border-box"
 			}).appendTo('.work_contents_wrap')
 		    )
 		)
