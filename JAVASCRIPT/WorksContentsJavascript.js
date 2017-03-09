@@ -14,7 +14,8 @@ $(document).ready(function() {
 			class: 'WorkContent_InnerWrap_class',
 			id: 'WorkContent_InnerWrap_class'
 		    }).css({
-			"width":"25%",
+			"width":"100%",
+			"height":"100%",
 			"border-style":"solid", 
 			"border-width":"1px",
 		    }).appendTo(
