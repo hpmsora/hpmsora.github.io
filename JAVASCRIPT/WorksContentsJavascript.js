@@ -14,7 +14,8 @@ $(document).ready(function() {
 			class: 'WorkContent_OuterWrap_class',
 			id: 'WorkContent_OuterWrap_class'
 		    }).css({
-			"width":"100%",
+			"width":"25%",
+			"padding-top":"25%",
 			"border-style":"solid", 
 			"border-width":"1px",
 			"float":"left"
