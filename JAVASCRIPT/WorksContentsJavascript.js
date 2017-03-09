@@ -11,8 +11,8 @@ $(document).ready(function() {
 		    text: (index + 1) + ": " + value.name
 		}).appendTo(
 		    $('<div/>', {
-			class: 'WorkContent_OuterWrap_class',
-			id: 'WorkContent_OuterWrap_class'
+			class: 'WorkContent_InnerWrap_class',
+			id: 'WorkContent_InnerWrap_class'
 		    }).css({
 			"width":"100%",
 			"height":"100%",
@@ -20,8 +20,8 @@ $(document).ready(function() {
 			"border-width":"1px",
 		    }).appendTo(
 			$('<div/>', {
-			    class: 'WorkContent_InnerWrap_class',
-			    id : 'WorkContent_InnerWrap_id'
+			    class: 'WorkContent_OuterWrap_class',
+			    id : 'WorkContent_OuterWrap_id'
 			}).css({
 			    "width":"25%",
 			    "padding-style":"25%",
