@@ -9,6 +9,9 @@ $(document).ready(function() {
 		$('<a/>', {
 		    href: value.html_url,
 		    text: (index + 1) + ": " + value.name
+		}).css({
+		    "text-decoration":"none",
+		    "font-size":"20px"
 		}).appendTo(
 		    $('<div/>', {
 			class: 'WorkContent_InnerWrap_class',
