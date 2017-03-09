@@ -19,7 +19,7 @@ $(document).ready(function() {
 			"border-style":"solid", 
 			"border-width":"1px",
 			"float":"left"
-		    })).appendTo('.work_contents_wrap')/*.appendTo(
+		    })).appendTo('.work_contents_wrap');/*.appendTo(
 			$('<div/>', {
 			    class: 'WorkContent_InnerWrap_class',
 			    id : 'WorkContent_InnerWrap_id'
