@@ -24,7 +24,7 @@ $(document).ready(function() {
 			}).css({
 			    "width":"25%",
 			    "float":"left",
-			    "padding-bottom":"25%";
+			    "padding-bottom":"25%"
 			}).appendTo('.work_contents_wrap')
 		    )
 		)
