@@ -19,7 +19,7 @@ $(document).ready(function() {
 		    }).css({
 			"width":"100%",
 			"height":"100%",
-			"margin-bottom":"100%",
+			"margin-bottom":"-100%",
 			"border-style":"solid", 
 			"border-width":"1px",
 		    }).appendTo(
