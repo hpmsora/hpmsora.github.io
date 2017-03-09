@@ -14,8 +14,7 @@ $(document).ready(function() {
 			class: 'WorkContent_InnerWrap_class',
 			id: 'WorkContent_InnerWrap_class'
 		    }).css({
-			"width":"50vw",
-			"height":"50vw",
+			"width":"25%",
 			"border-style":"solid", 
 			"border-width":"1px",
 		    }).appendTo(
@@ -24,7 +23,8 @@ $(document).ready(function() {
 			    id : 'WorkContent_OuterWrap_id'
 			}).css({
 			    "width":"25%",
-			    "float":"left"
+			    "float":"left",
+			    "padding-bottom":"25%";
 			}).appendTo('.work_contents_wrap')
 		    )
 		)
