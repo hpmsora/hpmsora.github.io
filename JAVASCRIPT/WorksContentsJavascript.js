@@ -11,15 +11,21 @@ $(document).ready(function() {
 		    text: (index + 1) + ": " + value.name
 		}).appendTo(
 		    $('<div/>', {
-			class: 'test_class',
-			id: 'test_id'
+			class: 'WorkContent_OuterWrap_class',
+			id: 'WorkContent_OuterWrap_class'
 		    }).css({
-			"width":"24%",
-			"padding-top":"25%",
+			"width":"100%",
 			"border-style":"solid", 
 			"border-width":"1px",
 			"float":"left"
-		    }).appendTo('#content'))
+		    })).appendTo(
+			$('<div\>', {
+			    class: 'WorkContent_InnerWrap_class',
+			    id : 'WorkContent_InnerWrap_id'
+			}).css({
+			    "width":"25%",
+			    "padding-style":"25%"
+			})).appendTo('#content')
 	    });
 	}
     });
