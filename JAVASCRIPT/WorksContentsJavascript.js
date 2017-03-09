@@ -19,9 +19,7 @@ $(document).ready(function() {
 		    }).css({
 			"width":"100%",
 			"height":"100%",
-			"margin-bottom":"-100%",
-			"border-style":"solid", 
-			"border-width":"1px",
+			"margin-bottom":"-100%"
 		    }).appendTo(
 			$('<div/>', {
 			    class: 'WorkContent_OuterWrap_class',
@@ -29,7 +27,9 @@ $(document).ready(function() {
 			}).css({
 			    "width":"25%",
 			    "float":"left",
-			    "padding-bottom":"25%"
+			    "padding-bottom":"25%",
+			    "border-style":"solid", 
+			    "border-width":"1px"
 			}).appendTo('.work_contents_wrap')
 		    )
 		)
