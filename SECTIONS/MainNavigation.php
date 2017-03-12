@@ -6,6 +6,6 @@
   <script>
   $(".main_navigation_class li span a").click(function() {
 	var pageName = $(this).attr('data-type');
-	$('#content').load('SECTIONS/' + pageName + '.php');
+	$('#MainContent').load('SECTIONS/' + pageName + '.php');
     });
  </script>
