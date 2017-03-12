@@ -18,7 +18,7 @@
 		<div class="contactContactButtonWrap">
 			<div class="contactContactButtonInner_Up"></div>
 			<div class="contactContactButtonInner_Button">
-				<button id="contactContactButton" type="button">CONTACT</button>
+				<a class="contactContactButton" href="#">CONTACT</a>
 			</div>
 			<div class="contactContactButtonInner_Down"></div>
 		</div>

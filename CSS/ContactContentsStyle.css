@@ -67,7 +67,14 @@
 	height: 20%;
 }
 
-#contactContactButton {
-	width: 80px;
-	height: 20px;
+.contactContactButton {
+	display: inline-block;
+	position: relative;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px/25px Arial, sans-serif;
+    color: #515151;
+    background: #d3d3d3;
 }
