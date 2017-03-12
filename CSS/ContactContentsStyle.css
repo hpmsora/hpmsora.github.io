@@ -15,6 +15,15 @@
 	position: relative;
 }
 
+.contactQuoteInner_Up, .contactQuoteInner_Down {
+	width: 100%;
+	height: 40%;
+}
+
+.contactQuoteInner_Quote {
+	height: 20%
+}
+
 .contactImageWrap {
 	width: 100%;
 	height: 20%;
