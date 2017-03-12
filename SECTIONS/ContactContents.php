@@ -2,16 +2,18 @@
 <link rel="stylesheet" type="text/css" href="CSS/ContactContentsStyle.css">
 	<div class="contactInnerWarp">
 		<div class="contactQuoteWrap">
-			<div class="contactQuoteInner_Up">
-			</div>
+			<div class="contactQuoteInner_Up"></div>
 			<div class="contactQuoteInner_Quote">
-				<span>THE ART OF COMPUTER & CODING</span>
+				<span>THE ART OF COMPUTER AND CODING</span>
 			</div>
-			<div class="contactQuoteInner_Down">
-			</div>
+			<div class="contactQuoteInner_Down"></div>
 		</div>
 		<div class="contactImageWrap">
-			<img class = "Contact_Image" src="ASSETS/ExampleImage.jpg">
+			<div class="contactImageInner_Up"></div>
+			<div class="contactImageInner_Image">
+				<img class = "Contact_Image" src="ASSETS/ExampleImage.jpg">
+			</div>
+			<div class="contactImageInner_Down"></div>
 		</div>
 	</div>
 </div>
