@@ -1,5 +1,5 @@
 <div class="contact_contents_wrap">
-<link rel="stylesheet" type="text/css" href="CSS/ContactContentsStyle.css">
+	<link rel="stylesheet" type="text/css" href="CSS/ContactContentsStyle.css">
 	<div class="contactInnerWarp">
 		<div class="contactQuoteWrap">
 			<div class="contactQuoteInner_Up"></div>

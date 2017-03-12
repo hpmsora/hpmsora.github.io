@@ -1,3 +1,0 @@
-<div>
-	Home Contents
-</div>
