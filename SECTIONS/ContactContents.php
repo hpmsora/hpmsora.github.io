@@ -15,5 +15,12 @@
 			</div>
 			<div class="contactImageInner_Down"></div>
 		</div>
+		<div class="contactContactButtonWrap">
+			<div class="contactContactButtonInner_Up"></div>
+			<div class="contactContactButtonInner_Button">
+				<button id="contactContactButton" type="button">CONTACT</button>
+			</div>
+			<div class="contactContactButtonInner_Down"></div>
+		</div>
 	</div>
 </div>
