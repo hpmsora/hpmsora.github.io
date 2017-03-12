@@ -76,10 +76,10 @@
 	background: #d3d3d3;
 	background: -moz-linear-gradient(top,  #d3d3d3 0%, #8a8a8a 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(100%,#8a8a8a));
-    background: -webkit-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%);
-    background: -o-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%);
-    background: -ms-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%);
-    background: linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%);
+	background: -webkit-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%);
+	background: -o-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%);
+	background: -ms-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%);
+	background: linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%);
 
 	background: #d3d3d3;
 	display: inline-block;
