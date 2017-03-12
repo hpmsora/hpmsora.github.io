@@ -69,9 +69,9 @@
 }
 
 .contactContactButton {
-	padding: 0 20px;
-	padding-top: 20px;
-	height: 25px;
+	padding: 0 10px;
+	padding-top: 10px;
+	height: 18px;
 	text-transform: uppercase;
 	
 	color: #515151;
@@ -88,7 +88,7 @@
 	position: relative;
 	text-align: center;
 	text-decoration: none;
-	font: bold 20px/22px Arial, sans-serif;
+	font: bold 15px/17px Arial, sans-serif;
 	
 	text-shadow: 1px 1px 1px rgba(255,255,255, .22);
 	
