@@ -4,5 +4,5 @@ $(document).ready(function() {
 		href: 'hpmsora.github.io/ASSETS/Resume - Won Yong Ha.pdf',
 		target: '_blank',
 		text: 'RESUME'
-	}).append('.aboutResumeButtonInner_Button')
+	}).appendTo('.aboutResumeButtonInner_Button')
 });

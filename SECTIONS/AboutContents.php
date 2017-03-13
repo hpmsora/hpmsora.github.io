@@ -13,8 +13,7 @@
 		</div>
 		<div class="aboutResumeButtonWrap">
 			<div class="aboutResumeButtonInner_Up"></div>
-			<div class="aboutResumeButtonInner_Button">
-			</div>
+			<div class="aboutResumeButtonInner_Button"></div>
 			<div class="aboutResumeButtonInner_Down"</div>
 		</div>
 	</div>
