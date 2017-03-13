@@ -15,6 +15,12 @@ $(document).ready(function() {
 			quoteText += ("\n-" + quoteAndAuthors[count] + "-");
 		}
 		
-		$('.aboutQuoteInner_Quote').html(quoteText)
+		$('<span/>', {
+			class: 'aboutQuote'
+			text: quoteText
+		}).css({
+			"text-align":"center";
+			"font":"bold 15px/17px Arial, sans-serif"
+		}).appendTo('.aboutQuoteInner_Quote')
 	})
 });
