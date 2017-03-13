@@ -7,6 +7,6 @@ $(document).ready(function() {
 	}).appendTo('.aboutResumeButtonInner_Button')
 	$.get('/ASSETS/Quotes.txt', function(data) {
 		var dataList = data.splot('$$$$')
-		$('.aboutQuoteInner_Quote').html(dataList[0])
+		$('.aboutQuoteInner_Quote').html(dataList[1])
 	})
 });
