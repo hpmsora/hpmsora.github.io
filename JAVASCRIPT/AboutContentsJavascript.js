@@ -15,6 +15,7 @@ $(document).ready(function() {
 			quoteText += ("\n-" + quoteAndAuthors[count] + "-");
 		}
 		
-		$('.aboutQuoteInner_Quote').html(quoteText)
+		//$('.aboutQuoteInner_Quote').html(quoteText)
+		$('.aboutQuoteInner_Quote').html(dataList[1])
 	})
 });
