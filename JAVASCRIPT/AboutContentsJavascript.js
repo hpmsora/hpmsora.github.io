@@ -5,4 +5,4 @@ $(document).ready(function() {
 		target: '_blank',
 		text: 'RESUME'
 	}).append('aboutResumeButtonInner_Button')
-}
+});
