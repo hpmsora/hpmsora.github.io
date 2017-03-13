@@ -19,7 +19,7 @@ $(document).ready(function() {
 			class: 'aboutQuote',
 			text: quoteText
 		}).css({
-			"text-align":"center";
+			"text-align":"center",
 			"font":"bold 15px/17px Arial, sans-serif"
 		}).appendTo('.aboutQuoteInner_Quote')
 	})
