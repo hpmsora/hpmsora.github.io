@@ -7,7 +7,14 @@ $(document).ready(function() {
 	}).appendTo('.aboutResumeButtonInner_Button')
 	$.get('/ASSETS/Quotes.txt', function(data) {
 		var dataList = data.split('$$$$');
-		var randomOrder = Math.floor(Math.random() * dataList.length);
-		$('.aboutQuoteInner_Quote').html(dataList[randomOrder])
+		var quoteAndAuthors = dataList[Math.floor(Math.random() * dataList.length)].split('$');
+		var quoteText = quoteAndAuthors[0];
+		var count;
+		
+		for(count = 1; count < quoteAndAuthors.length; count++) {
+			quoteText += ("\n-" + quoteAndAuthors[count] + "-");
+		}
+		
+		$('.aboutQuoteInner_Quote').html(quoteText)
 	})
 });
