@@ -1,6 +1,3 @@
-var fs = require("fs");
-var quotesText = fs.readFileSysnc("/ASSETS/Quotes.txt");
-
 $(document).ready(function() {
 	$('<a/>', {
 		class: 'aboutResumeButton',
@@ -8,5 +5,7 @@ $(document).ready(function() {
 		target: '_blank',
 		text: 'RESUME'
 	}).appendTo('.aboutResumeButtonInner_Button')
-	$('.aboutQuoteInner_Quote').html(quotesText)
+	$.get('/ASSETS/Quotes.txt', function(data) {
+		$('.aboutQuoteInner_Quote').html(data)
+	})
 });
