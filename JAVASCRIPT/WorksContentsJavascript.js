@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     $.ajax({
 	url:'https://api.github.com/users/hpmsora/repos',
 	type:'GET',
