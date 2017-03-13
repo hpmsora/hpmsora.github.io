@@ -13,7 +13,7 @@
 		<div class="aboutResumeButtonWrap">
 			<div class="aboutResumeButtonInner_Up"></div>
 			<div class="aboutResumeButtonInner_Button">
-				<a class="aboutResumeButton" href="#">RESUME</a>
+				<a class="aboutResumeButton" href="hpmsora.github.io/ASSETS/Resume - Won Yong Ha.pdf" target="_blank">RESUME</a>
 			</div>
 			<div class="aboutResumeButtonInner_Down"</div>
 		</div>
