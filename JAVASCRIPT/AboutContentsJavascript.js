@@ -7,6 +7,7 @@ $(document).ready(function() {
 	}).appendTo('.aboutResumeButtonInner_Button')
 	$.get('/ASSETS/Quotes.txt', function(data) {
 		var dataList = data.split('$$$$');
-		$('.aboutQuoteInner_Quote').html(dataList[0])
+		var randomOrder = Math.floor(Math.random() * dataList.length);
+		$('.aboutQuoteInner_Quote').html(dataList[randomOrder])
 	})
 });
