@@ -6,7 +6,7 @@ $(document).ready(function() {
 		text: 'RESUME'
 	}).appendTo('.aboutResumeButtonInner_Button')
 	$.get('/ASSETS/Quotes.txt', function(data) {
-		var dataList = data.splot('$$$$');
+		var dataList = data.split('$$$$');
 		$('.aboutQuoteInner_Quote').html(dataList[0])
 	})
 });
