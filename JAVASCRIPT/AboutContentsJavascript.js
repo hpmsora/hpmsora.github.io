@@ -16,7 +16,7 @@ $(document).ready(function() {
 		}
 		
 		$('<span/>', {
-			class: 'aboutQuote'
+			class: 'aboutQuote',
 			text: quoteText
 		}).css({
 			"text-align":"center";
