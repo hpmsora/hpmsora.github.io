@@ -1,5 +1,6 @@
 <div class="contact_contents_wrap">
 	<link rel="stylesheet" type="text/css" href="CSS/ContactContentsStyle.css">
+	<script rel="text/javascript" src="JAVASCRIPT/ContactContentsJavascript.js"></script>
 	<div class="contactInnerWarp">
 		<div class="contactQuoteWrap">
 			<div class="contactQuoteInner_Up"></div>
@@ -18,9 +19,12 @@
 		<div class="contactContactButtonWrap">
 			<div class="contactContactButtonInner_Up"></div>
 			<div class="contactContactButtonInner_Button">
-				<a class="contactContactButton" href="#">CONTACT</a>
+				<a class="contactContactButton" href="#" onclick="showContact()">CONTACT</a>
 			</div>
 			<div class="contactContactButtonInner_Down"></div>
+		</div>
+		<div class="contactContactSessionWarp">
+			Contact Session
 		</div>
 	</div>
 </div>
