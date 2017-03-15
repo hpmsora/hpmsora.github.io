@@ -11,7 +11,7 @@ $(document).ready(function() {
 		}).css({
 		    "text-decoration":"none",
 		    "font-size":"20px",
-		    "text-deconation":"none"
+		    "color":"black”
 		}).appendTo(
 		    $('<div/>', {
 			class: 'WorkContent_InnerWrap_class',
