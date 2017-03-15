@@ -10,8 +10,7 @@ $(document).ready(function() {
 		    text: (index + 1) + ": " + value.name
 		}).css({
 		    "text-decoration":"none",
-		    "font-size":"20px",
-		    "color":"black”
+		    "font-size":"20px"
 		}).appendTo(
 		    $('<div/>', {
 			class: 'WorkContent_InnerWrap_class',
