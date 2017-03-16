@@ -23,7 +23,7 @@
 			</div>
 			<div class="contactContactButtonInner_Down"></div>
 		</div>
-		<div id="contactContactSessionWarp_id" class="contactContactSessionWarp">
+		<div id="contactContactSessionWarp_id" class="contactContactSessionWarp" style="display:none;">
 			<div class="contactContactSessionInput1">
 				<input type="text" name="name" />
 				<input type="text" name="email" />
