@@ -25,8 +25,12 @@
 		</div>
 		<div id="contactContactSessionWarp_id" class="contactContactSessionWarp" style="display:none;">
 			<div class="contactContactSessionInput1">
-				<input type="text" name="name" />
-				<input type="text" name="email" />
+				<div class="contactContactSessionInput1NameField">
+					<input type="text" name="name" />
+				</div>
+				<div class="contactContactSessionInput1EmailField">
+					<input type="text" name="email" />
+				</div>
 			</div>
 			<div class="contactContactSessionInput2">
 				<textarea id="contactContactSessionInput2_Message_id" class="contactContactSessionInput2_Message" name="message" rows="7" cols="30"></textarea>

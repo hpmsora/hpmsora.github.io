@@ -120,3 +120,19 @@
 	width: 100%;
 	height: 300px;
 }
+
+.contactContactSessionInput1 {
+	width: 100%;
+	height: 20%;
+	float: left;
+}
+
+.contactContactSessionInput1NameField {
+	width: 50%;
+	height: 100%;
+}
+
+.contactContactSessionInput1EmailField {
+	width: 50%;
+	height: 100%;
+}
