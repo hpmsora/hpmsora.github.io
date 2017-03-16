@@ -127,11 +127,13 @@
 }
 
 .contactContactSessionInput1NameField {
-	width: 49%;
+	width: 50%;
 	height: 100%;
+	float: left;
 }
 
 .contactContactSessionInput1EmailField {
 	width: 50%;
 	height: 100%;
+	float: left;
 }
