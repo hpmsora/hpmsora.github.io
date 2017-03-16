@@ -25,11 +25,14 @@
 		</div>
 		<div id="contactContactSessionWarp_id" class="contactContactSessionWarp">
 			<div class="contactContactSessionInput1">
-				<input type="text" name="name">
-				<input type="text" name="email">
+				<input type="text" name="name" />
+				<input type="text" name="email" />
 			</div>
-			<div class="class="contactContactSessionInput2">
-			<textarea id="contactContactSessionInput2_Message_id" class="contactContactSessionInput2_Message" name="message" rows="7" cols="30"></textarea>
+			<div class="contactContactSessionInput2">
+				<textarea id="contactContactSessionInput2_Message_id" class="contactContactSessionInput2_Message" name="message" rows="7" cols="30"></textarea>
+			</div>
+			<div class="contactContactSessionSubmit">
+				<input id="" type="submit" value="Send Email" />
 			</div>
 		</div>
 	</div>
