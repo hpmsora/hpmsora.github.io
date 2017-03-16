@@ -26,9 +26,11 @@
 		<div id="contactContactSessionWarp_id" class="contactContactSessionWarp" style="display:none;">
 			<div class="contactContactSessionInput1">
 				<div class="contactContactSessionInput1NameField">
+					<span>Name</span>
 					<input type="text" name="name" />
 				</div>
 				<div class="contactContactSessionInput1EmailField">
+					<span>Email</span>
 					<input type="text" name="email" />
 				</div>
 			</div>
