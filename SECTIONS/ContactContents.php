@@ -24,7 +24,13 @@
 			<div class="contactContactButtonInner_Down"></div>
 		</div>
 		<div id="contactContactSessionWarp_id" class="contactContactSessionWarp">
-			Contact Session
+			<div class="contactContactSessionInput1">
+				<input type="text" name="name">
+				<input type="text" name="email">
+			</div>
+			<div class="class="contactContactSessionInput2">
+			<textarea id="contactContactSessionInput2_Message_id" class="contactContactSessionInput2_Message" name="message" rows="7" cols="30"></textarea>
+			</div>
 		</div>
 	</div>
 </div>
