@@ -128,11 +128,19 @@
 
 .contactContactSessionInput1Inner {
 	width: 50%;
-	height 100%;
+	height: 100%;
 	text-align: center;
 	float: left;
 }
 
-.contactContactSessionInput2InnerEmailField {
+.contactContactSessionInput2 {
+	width: 100%;
+	height: 60%;
+	margin: 30px;
+}
 
+.contactContactSessionSubmit {
+	width: 100%;
+	height: 20%;
+	text-align: center;
 }
