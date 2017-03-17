@@ -136,7 +136,13 @@
 .contactContactSessionInput2 {
 	width: 100%;
 	height: 60%;
-	margin: 30px;
+}
+
+.contactContactSessionInput2_Message {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	resize: vertical;
 }
 
 .contactContactSessionSubmit {

@@ -39,7 +39,7 @@
 				</div>
 			</div>
 			<div class="contactContactSessionInput2">
-				<textarea id="contactContactSessionInput2_Message_id" class="contactContactSessionInput2_Message" name="message" rows="7" cols="30"></textarea>
+				<textarea id="contactContactSessionInput2_Message_id" class="contactContactSessionInput2_Message" name="message"></textarea>
 			</div>
 			<div class="contactContactSessionSubmit">
 				<input id="" type="submit" value="Send Email" />
