@@ -26,7 +26,7 @@ $(document).ready(function() {
 			"display": "inline-block",
 			"position": "relative",
 			"text-align": "center",
-			"text-decoration": "none;
+			"text-decoration": "none",
 			"font": "bold 15px/17px Arial, sans-serif",
 	
 			"text-shadow": "1px 1px 1px rgba(255,255,255, .22)",
