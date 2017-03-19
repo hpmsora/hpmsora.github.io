@@ -11,8 +11,8 @@ $(document).ready(function() {
 		}).css({
 			"display":"inline-block",
 			"width":"100%",
+			"height":"100%",
 			"margin":"0px",
-			"padding":"10px 0",
 			"text-transform":"uppercase",
 			
 			"color":"#515151",
