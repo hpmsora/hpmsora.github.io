@@ -6,11 +6,13 @@ $(document).ready(function() {
 	    $.each(data, function(index, value) {
 		$('<a/>', {
 		    href: value.html_url,
-		    text: (index + 1) + ": " + value.name
+		    text: (index + 1) + ": " + value.name,
+		    class: "WorkContent_ContentBox"
 		}).css({
 			"display":"inline-block",
 			"height":"100%",
 			"width":"100%",
+			"margin":"0",
 			"padding":"10px 0",
 			"text-transform":"uppercase",
 			
@@ -40,12 +42,6 @@ $(document).ready(function() {
 			"-o-transition":"all 0.15s ease",
 			"-ms-transition":"all 0.15s ease",
 			"transition":"all 0.15s ease"
-		}).hover(function() {
-		$(this).css({
-			"-webkit-box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)",
-			"-moz-box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)",
-			"box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)"
-		})
 		}).appendTo(
 		    $('<div/>', {
 			class: 'WorkContent_InnerWrap_class',
@@ -74,3 +70,12 @@ $(document).ready(function() {
 	}
     });
 });
+
+$(".WorkContent_ContentBox").hover(function() {
+	$(this).css({
+		"-webkit-box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)",
+		"-moz-box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)",
+		"box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)"
+	})
+});
+
