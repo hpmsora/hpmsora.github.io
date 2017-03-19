@@ -10,40 +10,37 @@ $(document).ready(function() {
 		    text: (index + 1) + ": " + value.name
 		}).css({
 			"padding":"10px",
-			"height":"100px",
+			"height":"100%",
+			"width":"100%",
 			"text-transform":"uppercase",
 			
 			"color":"#515151",
-			"background": "#d3d3d3",
-			"background": "-moz-linear-gradient(top,  #d3d3d3 0%, #8a8a8a 100%)",
-			"background": "-webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(100%,#8a8a8a))",
-			"background": "-webkit-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%)",
-			"background": "-o-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%)",
-			"background": "-ms-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%)",
-			"background": "linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%)",
+			"background":"#d3d3d3",
+			"background":"-moz-linear-gradient(top,  #d3d3d3 0%, #8a8a8a 100%)",
+			"background":"-webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(100%,#8a8a8a))",
+			"background":"-webkit-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%)",
+			"background":"-o-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%)",
+			"background":"-ms-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%)",
+			"background":"linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%)",
 
-			"background": "#d3d3d3",
-			"display": "inline-block",
-			"position": "relative",
-			"text-align": "center",
-			"text-decoration": "none",
-			"font": "bold 15px/17px Arial, sans-serif",
+			"background":"#d3d3d3",
+			"display":"inline-block",
+			"position":"relative",
+			"text-align":"center",
+			"text-decoration":"none",
+			"font":"bold 15px/17px Arial, sans-serif",
 	
-			"text-shadow": "1px 1px 1px rgba(255,255,255, .22)",
-			
-			"-webkit-border-radius": "30px",
-			"-moz-border-radius": "30px",
-			"border-radius": "30px",
+			"text-shadow":"1px 1px 1px rgba(255,255,255, .22)",
 	
-			"-webkit-box-shadow": "1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
-			"-moz-box-shadow": "1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
-			"box-shadow": "1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
+			"-webkit-box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
+			"-moz-box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
+			"box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
 	
-			"-webkit-transition": "all 0.15s ease",
-			"-moz-transition": "all 0.15s ease",
-			"-o-transition": "all 0.15s ease",
-			"-ms-transition": "all 0.15s ease",
-			"transition": "all 0.15s ease"
+			"-webkit-transition":"all 0.15s ease",
+			"-moz-transition":"all 0.15s ease",
+			"-o-transition":"all 0.15s ease",
+			"-ms-transition":"all 0.15s ease",
+			"transition":"all 0.15s ease"
 		}).appendTo(
 		    $('<div/>', {
 			class: 'WorkContent_InnerWrap_class',
