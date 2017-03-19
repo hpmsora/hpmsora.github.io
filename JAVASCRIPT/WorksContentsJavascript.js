@@ -11,6 +11,7 @@ $(document).ready(function() {
 			"display":"inline-block",
 			"height":"100%",
 			"width":"100%",
+			"margin":"0";
 			"padding":"10px 0",
 			"text-transform":"uppercase",
 			
