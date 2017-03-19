@@ -9,7 +9,6 @@ $(document).ready(function() {
 		    href: value.html_url,
 		    text: (index + 1) + ": " + value.name
 		}).css({
-			"margin":"10px",
 			"height":"100%",
 			"width":"100%",
 			"text-transform":"uppercase",
@@ -24,7 +23,7 @@ $(document).ready(function() {
 			"background":"linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%)",
 
 			"background":"#d3d3d3",
-			"display":"inline-block",
+			"display":"block",
 			"position":"relative",
 			"text-align":"center",
 			"text-decoration":"none",
