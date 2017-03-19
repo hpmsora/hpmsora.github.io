@@ -48,7 +48,7 @@ $(document).ready(function() {
 		    }).css({
 			"width":"100%",
 			"height":"100%",
-			"margin-bottom":"-100%"
+			"mhttps://www.w3schools.com/jquery/jquery_dom_set.aspargin-bottom":"-100%"
 		    }).appendTo(
 			$('<div/>', {
 			    class: 'WorkContent_OuterWrap_class',
@@ -68,5 +68,13 @@ $(document).ready(function() {
 	    });
 	}
     });
+});
+
+$("").hover(function() {
+	$(this).css(
+		"-webkit-box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)",
+		"-moz-box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)",
+		"box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)"
+	)
 });
 
