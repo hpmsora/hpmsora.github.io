@@ -9,7 +9,7 @@ $(document).ready(function() {
 		    href: value.html_url,
 		    text: (index + 1) + ": " + value.name
 		}).css({
-			"padding":"10px",
+			"margin":"10px",
 			"height":"100%",
 			"width":"100%",
 			"text-transform":"uppercase",
