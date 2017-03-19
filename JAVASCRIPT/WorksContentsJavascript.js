@@ -11,6 +11,7 @@ $(document).ready(function() {
 		}).css({
 			"height":"100%",
 			"width":"100%",
+			"padding":"10px",
 			"text-transform":"uppercase",
 			
 			"color":"#515151",
