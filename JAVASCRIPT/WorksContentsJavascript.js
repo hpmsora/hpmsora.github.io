@@ -4,14 +4,14 @@ $(document).ready(function() {
 	type:'GET',
 	success: function(data){
 	    $.each(data, function(index, value) {
-		console.log(index);
 		$('<a/>', {
 		    href: value.html_url,
 		    text: (index + 1) + ": " + value.name
 		}).css({
+			"display":"inline-block",
 			"height":"100%",
 			"width":"100%",
-			"padding":"10px",
+			"padding":"10px 0",
 			"text-transform":"uppercase",
 			
 			"color":"#515151",
@@ -24,7 +24,6 @@ $(document).ready(function() {
 			"background":"linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%)",
 
 			"background":"#d3d3d3",
-			"display":"block",
 			"position":"relative",
 			"text-align":"center",
 			"text-decoration":"none",
