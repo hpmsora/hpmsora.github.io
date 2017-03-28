@@ -47,7 +47,6 @@ $(document).ready(function() {
 			id: 'WorkContent_InnerWrap_class'
 		    }).css({
 			"width":"100%",
-			"height":"100%",
 			"mhttps://www.w3schools.com/jquery/jquery_dom_set.aspargin-bottom":"-100%"
 		    }).appendTo(
 			$('<div/>', {
@@ -56,6 +55,7 @@ $(document).ready(function() {
 			}).css({
 			    "width":"25%",
 			    "float":"left",
+			    "padding-bottom":"25%",
 			    "border-style":"solid", 
 			    "border-width":"1px",
 			    "box-sizing":"border-box",
