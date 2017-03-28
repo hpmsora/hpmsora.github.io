@@ -11,7 +11,7 @@ $(document).ready(function() {
 		}).css({
 			"display":"inline-block",
 			"width":"100%",
-			"margin-bottom":"-25%",
+			"margin":"0px",
 			"text-transform":"uppercase",
 			
 			"color":"#515151",
@@ -54,8 +54,9 @@ $(document).ready(function() {
 			    id : 'WorkContent_OuterWrap_id'
 			}).css({
 			    "width":"25%",
+			    "width":"50vw",
+			    "height":"50vw",
 			    "float":"left",
-			    "padding-bottom":"25%",
 			    "border-style":"solid", 
 			    "border-width":"1px",
 			    "box-sizing":"border-box",
