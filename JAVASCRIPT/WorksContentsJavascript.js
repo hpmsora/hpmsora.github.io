@@ -10,9 +10,8 @@ $(document).ready(function() {
 		    class: "WorkContent_ContentBox"
 		}).css({
 			"display":"inline-block",
-			"position":"absolute",
 			"width":"100%",
-			"margin":"0px",
+			"margin-bottom":"-25%",
 			"text-transform":"uppercase",
 			
 			"color":"#515151",
