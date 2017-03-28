@@ -9,7 +9,6 @@ $(document).ready(function() {
 		    text: (index + 1) + ": " + value.name,
 		    class: "WorkContent_ContentBox"
 		}).css({
-			"display":"inline-block",
 			"width":"100%",
 			"height":"100%",
 			"margin":"0px",
@@ -47,6 +46,7 @@ $(document).ready(function() {
 			id: 'WorkContent_InnerWrap_class'
 		    }).css({
 			"width":"100%",
+			"height":"100%",
 			"mhttps://www.w3schools.com/jquery/jquery_dom_set.aspargin-bottom":"-100%"
 		    }).appendTo(
 			$('<div/>', {
