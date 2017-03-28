@@ -56,7 +56,6 @@ $(document).ready(function() {
 			}).css({
 			    "width":"25%",
 			    "float":"left",
-			    "padding-bottom":"25%",
 			    "border-style":"solid", 
 			    "border-width":"1px",
 			    "box-sizing":"border-box",
