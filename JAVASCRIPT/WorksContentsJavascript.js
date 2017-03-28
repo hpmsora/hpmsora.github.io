@@ -55,12 +55,7 @@ $(document).ready(function() {
 			    id : 'WorkContent_OuterWrap_id'
 			}).css({
 			    "width":"25%",
-			    "float":"left",
-			    "border-style":"solid", 
-			    "border-width":"1px",
-			    "box-sizing":"border-box",
-			    "-moz-box-sizing":"border-box",
-			    "-webkit-box-sizing":"border-box"
+			    "float":"left"
 			}).appendTo('.work_contents_wrap')
 		    )
 		)
