@@ -9,8 +9,8 @@ $(document).ready(function() {
 		    text: (index + 1) + ": " + value.name,
 		    class: "WorkContent_ContentBox"
 		}).css({
+			"display":"inline-block",
 			"width":"100%",
-			"height":"100%",
 			"margin":"0px",
 			"text-transform":"uppercase",
 			
