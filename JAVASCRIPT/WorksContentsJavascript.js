@@ -45,8 +45,8 @@ $(document).ready(function() {
 			class: 'WorkContent_InnerWrap_class',
 			id: 'WorkContent_InnerWrap_class'
 		    }).css({
-			"width":"100vw",
-			"height":"100vw",
+			"width":"15vw",
+			"height":"15vw",
 			"mhttps://www.w3schools.com/jquery/jquery_dom_set.aspargin-bottom":"-100%"
 		    }).appendTo(
 			$('<div/>', {
