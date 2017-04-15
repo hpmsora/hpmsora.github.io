@@ -30,12 +30,11 @@ $(document).ready(function() {
 			"text-decoration":"none",
 			"font":"bold 15px/17px Arial, sans-serif",
 	
-			/*"text-shadow":"1px 1px 1px rgba(255,255,255, .22)",
+			"text-shadow":"1px 1px 1px rgba(255,255,255, .22)",
 	
 			"-webkit-box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
 			"-moz-box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
 			"box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
-			*/
 	
 			"-webkit-transition":"all 0.15s ease",
 			"-moz-transition":"all 0.15s ease",
@@ -67,9 +66,11 @@ $(document).ready(function() {
 
 $(".WorkContent_ContentBox").hover(function() {
 	$(this).css({
+		/*
 		"-webkit-box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)",
 		"-moz-box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)",
 		"box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)"
+		*/
 	})
 });
 
