@@ -8,6 +8,10 @@ $(document).ready(function() {
 		    href: value.html_url,
 		    text: (index + 1) + ": " + value.name,
 		    class: "WorkContent_ContentBox"
+		}).hover(function() {
+			$(this).css({
+				"background-color":"#555"
+			})
 		}).css({
 			"display":"inline-block",
 			"width":"100%",
