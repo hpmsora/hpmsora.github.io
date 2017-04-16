@@ -15,11 +15,11 @@ $(document).ready(function() {
 				"box-shadow": "1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)"
 			})
 		}).mouseleave(function() {
-     	$(this).css({
-     		"-webkit-box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
+			$(this).css({
+				"-webkit-box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
 				"-moz-box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
 				"box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)"
-     	})
+			})
 		}).css({
 			"display":"inline-block",
 			"width":"100%",
