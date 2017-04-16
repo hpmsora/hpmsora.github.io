@@ -44,7 +44,7 @@ $(document).ready(function() {
 		}).appendTo(
 		    $('<div/>', {
 			class: 'WorkContent_InnerWrap_class',
-			id: 'WorkContent_InnerWrap_class'
+			id: 'WorkContent_InnerWrap_id'
 		    }).css({
 			"width":"15vw",
 			"height":"15vw",

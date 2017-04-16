@@ -8,8 +8,8 @@ $(".WorkContent_ContentBox").hover(function() {
 
 $(".WorkContent_ContentBox").active(function() {
   $(this).css({
-    "-webkit-box-shadow: inset 0px 0px 3px rgba(0,0,0, .8)",
-    "-moz-box-shadow: inset 0px 0px 3px rgba(0,0,0, .8)",
-    "box-shadow: inset 0px 0px 3px rgba(0,0,0, .8)"
+    "-webkit-box-shadow":"inset 0px 0px 3px rgba(0,0,0, .8)",
+    "-moz-box-shadow":"inset 0px 0px 3px rgba(0,0,0, .8)",
+    "box-shadow":"inset 0px 0px 3px rgba(0,0,0, .8)"
   })
 });
