@@ -11,6 +11,18 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+footer {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  color: white;
+  background-color: #333;
+  clear: left;
+  text-align: center;
+}
+
 .main_wrap {
   min-height: 100%;
   width: 60%;
@@ -22,15 +34,7 @@ body {
   height: 100%;
 }
 
-footer {
-  display: block;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  margin-top: 10px;
-  padding: 1em;
-  color: white;
-  background-color: #333;
-  clear: left;
-  text-align: center;
+.MainBodyTrip_class {
+  width: 100px;
+  height: 20px;
 }
