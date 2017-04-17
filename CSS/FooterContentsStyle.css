@@ -7,6 +7,7 @@
   color: white;
   background-color: #333;
   clear: both;
+  float: left;
 }
 
 .FooterConents_Text {
