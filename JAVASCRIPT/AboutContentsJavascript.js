@@ -21,7 +21,7 @@ $(document).ready(function() {
 		}).css({
 			"text-align":"center",
 			"font":"bold 15px/17px Arial, sans-serif",
-			"white-space":"nowrap"
+			"white-space":"normal"
 		}).appendTo('.aboutQuoteInner_Quote')
 	})
 });
