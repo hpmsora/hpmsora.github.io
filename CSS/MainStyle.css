@@ -12,8 +12,9 @@ body {
 }
 
 .main_wrap {
-    width: 60%;
-    margin: auto;
+  min-height: 100%;
+  width: 60%;
+  margin: auto;
 }
 
 .MainContent_class {
@@ -24,7 +25,7 @@ body {
 footer {
   display: block;
   width: 100%;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   padding: 1em;
   color: white;
