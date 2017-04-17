@@ -6,13 +6,13 @@
 
 .FooterConents_Text {
   width: 50%;
-  height: 100%;
+  height: 30px;
   text-align: right;
   font-size: 15px;
 }
 
 .FooterConents_Links {
   width: 50%;
-  height: 100%;
+  height: 30px;
   text-align: left;
 }
