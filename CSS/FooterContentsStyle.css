@@ -1,13 +1,6 @@
 .footer_contents_wrap {
-  display: block;
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  padding: 1em;
-  color: white;
-  background-color: #333;
-  clear: both;
-  float: left;
+  height: 100%;
 }
 
 .FooterConents_Text {
