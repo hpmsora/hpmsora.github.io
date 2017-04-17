@@ -20,7 +20,8 @@ $(document).ready(function() {
 			text: quoteText
 		}).css({
 			"text-align":"center",
-			"font":"bold 15px/17px Arial, sans-serif"
+			"font":"bold 15px/17px Arial, sans-serif",
+			"white-space":"pre"
 		}).appendTo('.aboutQuoteInner_Quote')
 	})
 });
