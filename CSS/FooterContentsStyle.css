@@ -1,12 +1,18 @@
-.FooterInnerWrap {
-  display: block;
+.footer_contents_wrap {
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  padding: 1em;
-  color: white;
-  background-color: #333;
-  clear: both;
-  text-align: center;
+  height: 100%;
+  float: left;
+}
+
+.FooterConents_Text {
+  width: 50%;
+  height: 30px;
+  text-align: right;
   font-size: 15px;
+}
+
+.FooterConents_Links {
+  width: 50%;
+  height: 30px;
+  text-align: left;
 }
