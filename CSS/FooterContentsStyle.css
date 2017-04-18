@@ -9,7 +9,7 @@
   height: 30px;
   text-align: right;
   font-size: 15px;
-  padding: 1em 0;
+  padding: 15px 0;
   float: left;
 }
 
@@ -17,6 +17,6 @@
   width: 50%;
   height: 30px;
   text-align: left;
-  padding: 1em 0;
+  padding: 15px; 0;
   float: left;
 }
