@@ -10,10 +10,12 @@
   text-align: right;
   font-size: 15px;
   padding: 1em 0;
+  float: left;
 }
 
 .FooterConents_Links {
   width: 50%;
   height: 30px;
   text-align: left;
+  float: left;
 }
