@@ -1,22 +1,6 @@
 .footer_contents_wrap {
   width: 100%;
   height: 100%;
-  float: left;
-}
-
-.FooterConents_Text {
-  width: 50%;
-  height: 30px;
-  text-align: right;
-  font-size: 15px;
-  padding: 15px 0;
-  float: left;
-}
-
-.FooterConents_Links {
-  width: 50%;
-  height: 30px;
-  text-align: left;
-  padding: 15px 0;
-  float: left;
+  font-size: 12px;
+  text-align: center;
 }
