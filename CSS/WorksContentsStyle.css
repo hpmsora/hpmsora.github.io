@@ -1,4 +1,4 @@
 .work_contents_wrap {
-  overflow: auto;
+  overflow: hidden;
   margin-bottom: 30px;
 }
