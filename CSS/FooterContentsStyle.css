@@ -3,5 +3,11 @@
   height: 50px;
   font-size: 12px;
   text-align: center;
+  line-height: 50px;
+}
+
+.footer_contents_wrap span {
+  display: inline-block;
   vertical-align: middle;
+  line-height: normal;
 }

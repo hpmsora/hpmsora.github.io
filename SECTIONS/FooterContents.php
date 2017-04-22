@@ -1,6 +1,8 @@
 <div class="footer_contents_wrap">
-  Copyright &copy; Won Yong
-  <a href="https://www.facebook.com/wonyongha36"><img src="ASSETS/Facebook_Icon.png" alt="Facebook Profile" height="20px" width="20px"></a>
-  <a href="https://www.linkedin.com/in/wonyongha/"><img src="ASSETS/Linkedin_Icon.png" alt="LinkedIn Profile" height="20px" width="20px"></a>
+  <span>Copyright &copy; Won Yong</span>
+  <span>
+    <a href="https://www.facebook.com/wonyongha36"><img src="ASSETS/Facebook_Icon.png" alt="Facebook Profile" height="20px" width="20px"></a>
+    <a href="https://www.linkedin.com/in/wonyongha/"><img src="ASSETS/Linkedin_Icon.png" alt="LinkedIn Profile" height="20px" width="20px"></a>
+  </span>
 </div>
 <link rel="stylesheet" type="text/css" href="CSS/FooterContentsStyle.css"/>
