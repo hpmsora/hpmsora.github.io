@@ -9,15 +9,25 @@ $(document).ready(function() {
 		var dataList = data.split('$$$$');
 		var quoteAndAuthors = dataList[Math.floor(Math.random() * dataList.length)].split('$');
 		var quoteText = quoteAndAuthors[0];
+		var quoteAuthors = "";
 		var count;
 		
 		for(count = 1; count < quoteAndAuthors.length; count++) {
-			quoteText += ("\n-" + quoteAndAuthors[count] + "-");
+			quoteAuthors += ("-" + quoteAndAuthors[count] + "-");
 		}
-		
+
 		$('<span/>', {
 			class: 'aboutQuote',
 			text: quoteText
+		}).css({
+			"text-align":"center",
+			"font":"bold 15px/17px Arial, sans-serif",
+			"white-space":"normal"
+		}).appendTo('.aboutQuoteInner_Quote')
+
+		$('<span/>', {
+			class: 'aboutQuote',
+			text: quoteAuthors
 		}).css({
 			"text-align":"center",
 			"font":"bold 15px/17px Arial, sans-serif",
