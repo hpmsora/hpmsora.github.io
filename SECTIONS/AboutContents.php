@@ -10,7 +10,10 @@
 		</div>
 		<div class="aboutQuotesWrap">
 			<div class="aboutQuoteInner_Up"></div>
-			<div class="aboutQuoteInner_Quote"></div>
+			<div class="aboutQuoteInner_Quote">
+				<div class="aboutQuoteInner_Quote_Quote"></div>
+				<div class="aboutQuoteInner_Quote_Authors"></div>
+			</div>
 			<div class="aboutQuoteInner_Down"></div>
 		</div>
 		<div class="aboutResumeButtonWrap">

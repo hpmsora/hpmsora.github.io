@@ -23,7 +23,7 @@ $(document).ready(function() {
 			"text-align":"center",
 			"font":"bold 15px/17px Arial, sans-serif",
 			"white-space":"normal"
-		}).append('<br />').appendTo('.aboutQuoteInner_Quote')
+		}).appendTo('.aboutQuoteInner_Quote')
 
 		$('<span/>', {
 			class: 'aboutQuote',
