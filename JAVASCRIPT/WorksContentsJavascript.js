@@ -6,8 +6,8 @@ $(document).ready(function() {
 	    $.each(data, function(index, value) {
 
 	    	var name = value.name;
-	    	name.replace(/-/g, " ");
-	    	name.replace(/   /g, "-");
+	    	name = name.split('-').join(' ');
+	    	name = name.split('   ').join(' - ');
 
 	    	$('<a/>', {
 		    	href: value.html_url,
