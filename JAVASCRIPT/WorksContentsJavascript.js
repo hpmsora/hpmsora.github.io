@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 	    	$('<a/>', {
 		    	href: value.html_url,
-		    	text: (index + 1) + ": " + value.name,
+		    	text: (index + 1) + ": " + name,
 		    	class: "WorkContent_ContentBox"
 		    }).mouseenter(function() {
 		    	$(this).css({
