@@ -13,8 +13,13 @@ $(document).ready(function() {
 		var count;
 		
 		for(count = 1; count < quoteAndAuthors.length; count++) {
-			quoteAuthors += ("-" + quoteAndAuthors[count] + "-");
+			if(count == 1) {
+				quoteAuthors += ("-" + quoteAndAuthors[count]);
+			} else {
+				quoteAuthors += (", " + quoteAndAuthors[count]);
+			}
 		}
+		quoteAuthors += "-";
 
 		$('<span/>', {
 			class: 'aboutQuote',
@@ -23,7 +28,7 @@ $(document).ready(function() {
 			"text-align":"center",
 			"font":"bold 15px/17px Arial, sans-serif",
 			"white-space":"normal"
-		}).appendTo('.aboutQuoteInner_Quote')
+		}).appendTo('.aboutQuoteInner_Quote_Quote')
 
 		$('<span/>', {
 			class: 'aboutQuote',
@@ -32,6 +37,6 @@ $(document).ready(function() {
 			"text-align":"center",
 			"font":"bold 15px/17px Arial, sans-serif",
 			"white-space":"normal"
-		}).appendTo('.aboutQuoteInner_Quote')
+		}).appendTo('.aboutQuoteInner_Quote_Authors')
 	})
 });
