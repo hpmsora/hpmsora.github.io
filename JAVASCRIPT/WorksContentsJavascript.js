@@ -10,7 +10,7 @@ $(document).ready(function() {
 	    	name = name.split('   ').join(' - ');
 
 	    	$('<span/>', {
-	    		text: (index + 1) + ": " + name
+	    		text: (index + 1)
 	    	}).appendTo(
 	    	$('<a/>', {
 		    	href: value.html_url,
@@ -78,10 +78,14 @@ $(document).ready(function() {
 			    "width":"25%",
 			    "max-width":"142.5px",
 			    "float":"left"
-			}).appendTo('.work_contents_wrap')
+			  }).appendTo('.work_contents_wrap')
 				)
 				)
 				)
+
+				$('<span/>', {
+					text: name
+				}).appendTo('.WorkContent_ContentBox')
 			});
 	  }
 	});
