@@ -9,9 +9,11 @@ $(document).ready(function() {
 	    	name = name.split('-').join(' ');
 	    	name = name.split('   ').join(' - ');
 
+	    	$('<span/>', {
+	    		text: (index + 1) + ": " + name
+	    	}).appendTo(
 	    	$('<a/>', {
 		    	href: value.html_url,
-		    	text: (index + 1) + ": " + name,
 		    	class: "WorkContent_ContentBox"
 		    }).mouseenter(function() {
 		    	$(this).css({
@@ -77,6 +79,7 @@ $(document).ready(function() {
 			    "max-width":"142.5px",
 			    "float":"left"
 			}).appendTo('.work_contents_wrap')
+				)
 				)
 				)
 			});
