@@ -12,7 +12,8 @@ $(document).ready(function() {
 	    	$('<span/>', {
 	    		text: (index + 1)
 	    	}).css({
-	    		"white-space":"normal"
+	    		"white-space":"normal",
+	    		"display":"block"
 	    	}).appendTo(
 	    	$('<a/>', {
 		    	href: value.html_url,
@@ -88,7 +89,8 @@ $(document).ready(function() {
 				$('<span/>', {
 					text: name
 				}).css({
-					"white-space":"normal"
+					"white-space":"normal",
+	    		"display":"block"
 				}).appendTo('.WorkContent_ContentBox_' + index)
 
 			});
