@@ -72,7 +72,7 @@ $(document).ready(function() {
 					id : 'WorkContent_OuterWrap_id'
 				}).css({
 			    "width":"25%",
-			    "min-width":"142.5px",
+			    "max-width":"142.5px",
 			    "float":"left"
 			}).appendTo('.work_contents_wrap')
 				)
