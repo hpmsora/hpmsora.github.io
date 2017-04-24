@@ -28,7 +28,7 @@
 			<div class="contactContactButtonInner_Down"></div>
 		</div>
 		<div id="contactContactSessionWarp_id" class="contactContactSessionWarp" style="display:none;">
-			<form id="contactForm" action="/SECTIONS/processForm.php" method="post">
+			<form id="contactform" action="/SECTIONS/processForm.php" method="post">
 				<div class="contactContactSessionInput1">
 					<div class="contactContactSessionInput1Inner">
 						<div class="contactContactSessionInput1InnerNameField">
