@@ -14,7 +14,7 @@ $(document).ready(function() {
 	    	}).appendTo(
 	    	$('<a/>', {
 		    	href: value.html_url,
-		    	class: "WorkContent_ContentBox"
+		    	class: "WorkContent_ContentBox" + index
 		    }).mouseenter(function() {
 		    	$(this).css({
 		    		"-webkit-box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)",
@@ -85,7 +85,8 @@ $(document).ready(function() {
 
 				$('<span/>', {
 					text: name
-				}).appendTo('.WorkContent_ContentBox')
+				}).appendTo('.WorkContent_ContentBox' + index)
+
 			});
 	  }
 	});
