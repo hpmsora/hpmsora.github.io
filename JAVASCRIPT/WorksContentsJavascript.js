@@ -45,7 +45,7 @@ $(document).ready(function() {
 					"position":"relative",
 					"text-align":"center",
 					"text-decoration":"none",
-					"font":"bold 12px/15px Arial, sans-serif",
+					"font":"bold 12px Arial, sans-serif",
 			
 					"text-shadow":"1px 1px 1px rgba(255,255,255, .22)",
 			
