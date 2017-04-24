@@ -8,7 +8,6 @@
 
 .aboutQuotesWrap {
 	width: 100%;
-	height: 200px;
 }
 
 .aboutQuoteInner_Up, .aboutQuoteInner_Down {
@@ -23,12 +22,10 @@
 
 .aboutQuoteInner_Quote_Quote {
 	width: 100%;
-	height: 80%;
 }
 
 .aboutQuoteInner_Quote_Authors {
 	width: 100%;
-	height: 20%;
 }
 
 .aboutResumeButtonWrap {
