@@ -65,6 +65,8 @@ $(document).ready(function() {
 				}).css({
 					"width":"15vw",
 					"height":"15vw",
+					"max-width":"142.5px",
+					"max-height":"142.5px",
 					"mhttps://www.w3schools.com/jquery/jquery_dom_set.aspargin-bottom":"-100%"
 				}).appendTo(
 				$('<div/>', {
