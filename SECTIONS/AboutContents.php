@@ -16,6 +16,15 @@
 			</div>
 			<div class="aboutQuoteInner_Down"></div>
 		</div>
+		<div class="keyWordsWrap">
+			<div class="keyWordsInner_up"></div>
+			<div class="keyWordsInner_KeyWords">
+				<div class="keyWordsInner_keyWords_1">Word 1</div>
+				<div class="keyWordsInner_keyWords_2">Word 2</div>
+				<div class="keyWordsInner_keyWords_3">Wrod 3</div>
+			</div>
+			<div class="keyWordsInner_Down"></div>
+		</div>
 		<div class="aboutResumeButtonWrap">
 			<div class="aboutResumeButtonInner_Up"></div>
 			<div class="aboutResumeButtonInner_Button"></div>

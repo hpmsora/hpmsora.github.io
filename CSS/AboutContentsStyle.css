@@ -28,6 +28,15 @@
 	width: 100%;
 }
 
+.keyWordsWrap {
+	width: 100%;
+	height: 100px;
+}
+
+.keyWordsInner_up, .keyWordsInner_Down {
+	width: 100%;
+}
+
 .aboutResumeButtonWrap {
 	width: 100%;
 	height: 100px;
