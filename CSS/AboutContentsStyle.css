@@ -17,6 +17,19 @@
 
 .keyWordsInner_keyWords_1, .keyWordsInner_keyWords_2, .keyWordsInner_keyWords_3 {
 	float: left;
+	text-align: center;
+}
+
+.keyWordsInner_keyWords_1 {
+	width: 33.33%;
+}
+
+.keyWordsInner_keyWords_2 {
+	width: 33.34%;
+}
+
+.keyWordsInner_keyWords_3 {
+	width: 33.33%;
 }
 
 .aboutQuotesWrap {
