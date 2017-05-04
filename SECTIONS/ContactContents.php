@@ -12,7 +12,7 @@
 		<div class="contactImageWrap">
 			<div class="contactImageInner_Up"></div>
 			<div class="contactImageInner_Image">
-				<img class = "Contact_Image" src="ASSETS/ExampleImage.jpg">
+				<img class = "Contact_Image" src="ASSETS/LogoImage.jpg">
 			</div>
 			<div class="contactImageInner_Down"></div>
 		</div>
