@@ -25,7 +25,7 @@ $(document).ready(function() {
 			text: 'Programmig'
 		}).css({
 			"white-space":"normal"
-		}).appendTo('keyWordsInner_keyWords_1')
+		}).appendTo('.keyWordsInner_keyWords_1')
 
 		$('<span/>', {
 			class: 'aboutQuote',
