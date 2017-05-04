@@ -7,8 +7,8 @@ function showContact() {
 }
 
 function LogoImageClick() {
-  if(document.getElementById('Contact_Image_id').src == 'ASSETS/LogoImage_1.jpg')
-    document.getElementById('Contact_Image_id').src = 'ASSETS/LogoImage_2.jpg'
+  if(document.getElementById('Contact_Image_id').src == 'ASSETS/LogoImage_1.png')
+    document.getElementById('Contact_Image_id').src = 'ASSETS/LogoImage_2.png'
   else
-    document.getElementById('Contact_Image_id').src = 'ASSETS/LogoImage_1.jpg'
+    document.getElementById('Contact_Image_id').src = 'ASSETS/LogoImage_1.png'
 }
