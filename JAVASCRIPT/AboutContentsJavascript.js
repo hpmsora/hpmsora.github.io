@@ -21,6 +21,12 @@ $(document).ready(function() {
 		}
 		quoteAuthors += "-";
 
+		$('<span>/', {
+			text: 'Programmig'
+		}).css({
+			"white-space":"normal"
+		}).appendTo('keyWordsInner_keyWords_1')
+
 		$('<span/>', {
 			class: 'aboutQuote',
 			text: quoteText

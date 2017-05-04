@@ -8,9 +8,9 @@
 		<div class="aboutKeyWordsWrap">
 			<div class="keyWordsInner_up"></div>
 			<div class="keyWordsInner_KeyWords">
-				<div class="keyWordsInner_keyWords_1">Word 1</div>
-				<div class="keyWordsInner_keyWords_2">Word 2</div>
-				<div class="keyWordsInner_keyWords_3">Wrod 3</div>
+				<div class="keyWordsInner_keyWords_1"></div>
+				<div class="keyWordsInner_keyWords_2"></div>
+				<div class="keyWordsInner_keyWords_3"></div>
 			</div>
 			<div class="keyWordsInner_Down"></div>
 		</div>
