@@ -1,7 +1,7 @@
 function showContact() {
     if(document.getElementById("contactContactSessionWarp_id").style.display == "none") {
-    	document.getElementById("contactContactSessionWarp_id").style.display = "block";
-      console.log(document.getElementById('Contact_Image_id').src)
+      document.getElementById("contactContactSessionWarp_id").style.display = "block";
+      console.log(document.getElementById('Contact_Image_id').data-status)
     } else {
     	document.getElementById("contactContactSessionWarp_id").style.display = "none";
     }
