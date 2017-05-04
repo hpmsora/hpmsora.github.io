@@ -12,7 +12,9 @@
 		<div class="contactImageWrap">
 			<div class="contactImageInner_Up"></div>
 			<div class="contactImageInner_Image">
-				<img class = "Contact_Image" src="ASSETS/LogoImage.jpg">
+				<a href="#" onclick="LogoImageClick()">
+					<img id="Contact_Image_id" class = "Contact_Image" src="ASSETS/LogoImage_1.jpg">
+				</a>
 			</div>
 			<div class="contactImageInner_Down"></div>
 		</div>

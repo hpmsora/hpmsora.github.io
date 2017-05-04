@@ -5,3 +5,10 @@ function showContact() {
     	document.getElementById("contactContactSessionWarp_id").style.display = "none";
     }
 }
+
+function LogoImageClick() {
+  if(document.getElementById('Contact_Image_id').src == 'ASSETS/LogoImage_1.jpg')
+    document.getElementById('Contact_Image_id').src = 'ASSETS/LogoImage_2.jpg'
+  else
+    document.getElementById('Contact_Image_id').src = 'ASSETS/LogoImage_1.jpg'
+}

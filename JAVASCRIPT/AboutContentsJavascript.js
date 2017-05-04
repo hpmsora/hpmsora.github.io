@@ -28,13 +28,13 @@ $(document).ready(function() {
 		}).appendTo('.keyWordsInner_keyWords_1')
 
 		$('<span>/', {
-			text: 'Programmig'
+			text: 'Creativity'
 		}).css({
 			"white-space":"normal"
 		}).appendTo('.keyWordsInner_keyWords_2')
 
 		$('<span>/', {
-			text: 'Programmig'
+			text: 'Leadership'
 		}).css({
 			"white-space":"normal"
 		}).appendTo('.keyWordsInner_keyWords_3')
