@@ -27,6 +27,18 @@ $(document).ready(function() {
 			"white-space":"normal"
 		}).appendTo('.keyWordsInner_keyWords_1')
 
+		$('<span>/', {
+			text: 'Programmig'
+		}).css({
+			"white-space":"normal"
+		}).appendTo('.keyWordsInner_keyWords_2')
+
+		$('<span>/', {
+			text: 'Programmig'
+		}).css({
+			"white-space":"normal"
+		}).appendTo('.keyWordsInner_keyWords_3')
+
 		$('<span/>', {
 			class: 'aboutQuote',
 			text: quoteText
