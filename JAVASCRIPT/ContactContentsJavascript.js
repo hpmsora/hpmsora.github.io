@@ -8,6 +8,7 @@ function showContact() {
 
 function LogoImageClick() {
   if(document.getElementById('Contact_Image_id').src == 'ASSETS/LogoImage_1.png')
+    Debug.Log(document.getElementById('Contact_Image_id'))
     document.getElementById('Contact_Image_id').src = 'ASSETS/LogoImage_2.png'
   else
     document.getElementById('Contact_Image_id').src = 'ASSETS/LogoImage_1.png'
