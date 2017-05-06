@@ -42,6 +42,7 @@
 			</div>
 			<div class="contactContactSessionInput2">
 				<textarea id="contactContactSessionInput2_Message_id" class="contactContactSessionInput2_Message" name="message"></textarea>
+				<div class="contactContactSessionInput2_Message_Down"></div>
 			</div>
 			<div class="contactContactSessionSubmit">
 				<input id="" type="submit" value="Send Email" />
