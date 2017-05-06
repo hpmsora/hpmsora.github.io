@@ -9,10 +9,10 @@ function showContact() {
 function LogoImageClick() {
   if($('#Contact_Image_id').data("status") == 'LogoImage_1.png') {
     document.getElementById('Contact_Image_id').src = 'ASSETS/LogoImage_2.png'
-    $('#Contact_Image_id').data("status") = 'LogoImage_2.png'
+    $('#Contact_Image_id').data("status", 'LogoImage_2.png')
   }
   else {
     document.getElementById('Contact_Image_id').src = 'ASSETS/LogoImage_1.png'
-    $('#Contact_Image_id').data("status") = 'LogoImage_1.png'
+    $('#Contact_Image_id').data("status", 'LogoImage_1.png')
   }
 }
