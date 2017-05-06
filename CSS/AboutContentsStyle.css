@@ -13,12 +13,12 @@
 
 .keyWordsInner_up, .keyWordsInner_Down {
 	width: 100%;
-	height: 100px;
+	height: 20px;
 }
 
 .keyWordsInner_KeyWords {
 	width: 100%;
-	height: 100px;
+	height: 30px;
 }
 
 .keyWordsInner_keyWords_1, .keyWordsInner_keyWords_2, .keyWordsInner_keyWords_3 {
