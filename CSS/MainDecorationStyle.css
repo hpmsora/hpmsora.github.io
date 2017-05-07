@@ -1,4 +1,8 @@
 .main_decoration_warp {
-  width: 125%;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  width: 100%;
   height: 200px;
+  background-color: #9FF;
 }
