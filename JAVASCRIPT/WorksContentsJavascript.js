@@ -70,8 +70,8 @@ $(document).ready(function() {
 				}).css({
 					"width":"20vw",
 					"height":"20vw",
-					"max-width":"142.5px",
-					"max-height":"142.5px",
+					"max-width":"190px",
+					"max-height":"190px",
 					"mhttps://www.w3schools.com/jquery/jquery_dom_set.aspargin-bottom":"-100%"
 				}).appendTo(
 				$('<div/>', {
@@ -79,7 +79,7 @@ $(document).ready(function() {
 					id : 'WorkContent_OuterWrap_id'
 				}).css({
 			    "width":"25%",
-			    "max-width":"142.5px",
+			    "max-width":"190px",
 			    "float":"left"
 			  }).appendTo('.work_contents_wrap')
 				)
