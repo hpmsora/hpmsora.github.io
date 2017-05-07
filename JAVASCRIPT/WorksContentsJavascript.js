@@ -68,8 +68,8 @@ $(document).ready(function() {
 					class: 'WorkContent_InnerWrap_class',
 					id: 'WorkContent_InnerWrap_id'
 				}).css({
-					"width":"15vw",
-					"height":"15vw",
+					"width":"20vw",
+					"height":"20vw",
 					"max-width":"142.5px",
 					"max-height":"142.5px",
 					"mhttps://www.w3schools.com/jquery/jquery_dom_set.aspargin-bottom":"-100%"
