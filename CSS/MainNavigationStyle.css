@@ -12,6 +12,8 @@
 
 .main_navigation_class li span a {
     height: 40px;
+    line-height: 40px;
+    text-align: center;
 }
 
 #navC1_id {
