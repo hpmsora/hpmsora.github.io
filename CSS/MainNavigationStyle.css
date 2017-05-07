@@ -41,6 +41,10 @@
     background-color: #555;
 }
 
+.navCMobile {
+    background: #9FF
+}
+
 @media screen and (max-width:500px) {
     .main_navigation_class {
 	position: relative;
