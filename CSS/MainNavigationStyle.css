@@ -35,7 +35,7 @@
     background-color: #555;
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:500px) {
     .main_navigation_class {
 	position: relative;
     }
