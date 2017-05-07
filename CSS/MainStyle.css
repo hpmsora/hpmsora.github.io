@@ -22,7 +22,7 @@ footer {
 
 .main_wrap {
   min-height: 100%;
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 
@@ -37,6 +37,6 @@ footer {
 
 @media screen and (min-width:950px) {
   .main_wrap {
-    width: 570px;
+    width: 760px;
   }
 }
