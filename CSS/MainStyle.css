@@ -35,6 +35,10 @@ footer {
   height: 30px;
 }
 
+.MainDecoration_class {
+  width: 100%;
+}
+
 @media screen and (min-width:950px) {
   .main_wrap {
     width: 760px;
