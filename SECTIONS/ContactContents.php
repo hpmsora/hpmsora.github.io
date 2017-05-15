@@ -5,7 +5,7 @@
 		<div class="contactQuoteWrap">
 			<div class="contactQuoteInner_Up"></div>
 			<div class="contactQuoteInner_Quote">
-				<span>THE ART OF COMPUTER AND CODING</span>
+				<span>THE ART OF COMPUTING AND CODING</span>
 			</div>
 			<div class="contactQuoteInner_Down"></div>
 		</div>
