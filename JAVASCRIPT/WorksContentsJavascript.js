@@ -71,7 +71,7 @@ $(document).ready(function() {
 					"width":"20vw",
 					"height":"20vw",
 					"max-width":"190px",
-					"max-height":"190px",
+					"max-height":"100px",
 					"mhttps://www.w3schools.com/jquery/jquery_dom_set.aspargin-bottom":"-100%"
 				}).appendTo(
 				$('<div/>', {
