@@ -17,15 +17,19 @@
 }
 
 #navC1_id {
-    width: 33.33%;
+    width: 25%;
 }
 
 #navC2_id {
-    width: 33.34%;
+    width: 25%;
 }
 
 #navC3_id {
-    width: 33.33%;
+    width: 25%;
+}
+
+#navC3_id {
+    width: 25%;
 }
 
 .main_navigation_class li span a {
