@@ -22,4 +22,8 @@ Sharing is good, and with digital technology, sharing is easy.$Richard Stallman$
 
 People sometimes ask me if it is a sin in the Church of Emacs to use vi. Using a free version of vi is not a sin; it is a penance. So happy hacking.$Richard Stallman$$$$
 
-Crime butchers innocence to secure a throne, and innocence struggles with all its might against the attempts of crime.$Maximilien Robespierre
+Crime butchers innocence to secure a throne, and innocence struggles with all its might against the attempts of crime.$Maximilien Robespierre$$$$
+
+Be yourself; everyone else is already taken.$Oscar Wilde$$$$
+
+Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.$Albert Einstein
