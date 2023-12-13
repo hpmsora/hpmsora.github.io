@@ -2,9 +2,14 @@
 	<script rel="text/javascript" src="JAVASCRIPT/AboutContentsJavascript.js"></script>
 	<link rel="stylesheet" type="text/css" href="CSS/AboutContentsStyle.css">
 	<div class="aboutInnerWrap">
-		<div class="aboutImageWrap">
-			Image
+		<div class="aboutNameWrap">
+			<div class="NameInner_up"></div>
+			<div class="NameInner_Name"></div>
+			<div class="NameInner_Down"></div>
 		</div>
+		<!--<div class="aboutImageWrap">
+			Image
+		</div>-->
 		<div class="aboutKeyWordsWrap">
 			<div class="keyWordsInner_up"></div>
 			<div class="keyWordsInner_KeyWords">

@@ -7,12 +7,27 @@
 	width: 100%;
 }
 
-.keyWordsWrap {
+.aboutNameWrap {
+	width: 100%;
+	height: 60px;
+}
+
+.NameInner_Down, .NameInner_Down {
+	width: 100%;
+	height: 20px;
+}
+
+.NameInner_Name {
+	width: 100%;
+	height: 20px;
+}
+
+.aboutKeyWordsWrap {
 	width: 100%;
 	height: 100px;
 }
 
-.keyWordsInner_up, .keyWordsInner_Down {
+.keyWordsInner_Up, .keyWordsInner_Down {
 	width: 100%;
 	height: 20px;
 }
