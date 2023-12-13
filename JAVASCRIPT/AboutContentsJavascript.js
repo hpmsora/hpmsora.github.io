@@ -1,10 +1,19 @@
 $(document).ready(function() {
 	$('<a/>', {
+		text: 'Won Yong Ha'
+	}).css({
+		"font-size" : "20px"
+	})
+
+	// Resume Button
+	$('<a/>', {
 		class: 'aboutResumeButton',
 		href: '/ASSETS/ResumeWonYongHa.pdf',
 		target: '_blank',
 		text: 'RESUME'
 	}).appendTo('.aboutResumeButtonInner_Button')
+
+	// Quote Section
 	$.get('/ASSETS/Quotes.txt', function(data) {
 		var dataList = data.split('$$$$');
 		var quoteAndAuthors = dataList[Math.floor(Math.random() * dataList.length)].split('$');
