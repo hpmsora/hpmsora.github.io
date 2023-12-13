@@ -9,17 +9,17 @@
 
 .aboutNameWrap {
 	width: 100%;
-	height: 60px;
+	height: 80px;
 }
 
-.NameInner_Down, .NameInner_Down {
+.NameInner_Up, .NameInner_Down {
 	width: 100%;
 	height: 20px;
 }
 
 .NameInner_Name {
 	width: 100%;
-	height: 20px;
+	height: 40px;
 }
 
 .aboutKeyWordsWrap {

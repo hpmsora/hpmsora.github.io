@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$('<a/>', {
 		text: 'Won Yong Ha'
 	}).css({
-		"font-size" : "20px"
+		"font-size" : "40px"
 	}).appendTo('.NameInner_Name')
 
 	// Resume Button
