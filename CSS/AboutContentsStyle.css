@@ -22,6 +22,21 @@
 	height: 40px;
 }
 
+.aboutSummaryWrap {
+	width: 100%;
+	height: 100px;
+}
+
+.SummaryInner_Up, .SummaryInner_Down {
+	width: 100%;
+	height: 10px;
+}
+
+.SummaryInner_Summary {
+	width: 100%;
+	height: 80px;
+}
+
 .aboutKeyWordsWrap {
 	width: 100%;
 	height: 100px;

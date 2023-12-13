@@ -1,0 +1,3 @@
+I received the bachelor's degree in Computer Science from Indiana University Bloomington, in 2016, and master's degree in Systems Engineering from Cornell University in 2019. Now, I am currently working toward the Ph.D. degree at the New York University Tandon School of Engineering, advised by Professor Zhong-Ping Jiang at the Control and Network Lab (CANLab).
+
+My research interests include optimization and scheduling.  

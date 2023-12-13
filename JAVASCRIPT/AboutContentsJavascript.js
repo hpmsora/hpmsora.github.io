@@ -1,9 +1,19 @@
 $(document).ready(function() {
+	// Name Section
 	$('<a/>', {
 		text: 'Won Yong Ha'
 	}).css({
 		"font-size" : "40px"
 	}).appendTo('.NameInner_Name')
+
+	// Summary Section
+	$.get('/ASSETS/Summary.txt', function(data) {
+		$('<a/>', {
+			text: data
+		}).css({
+			"font-size" : "15px"
+		}).appendTo('.SummaryInner_Summary')
+	})
 
 	// Resume Button
 	$('<a/>', {

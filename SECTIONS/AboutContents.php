@@ -7,6 +7,11 @@
 			<div class="NameInner_Name"></div>
 			<div class="NameInner_Down"></div>
 		</div>
+		<div class="aboutSummaryWrap">
+			<div class="SummaryInner_Up"></div>
+			<div class="SummaryInner_Summary"></div>
+			<div class="SummaryInner_Down"></div>
+		</div>
 		<!--<div class="aboutImageWrap">
 			Image
 		</div>-->
