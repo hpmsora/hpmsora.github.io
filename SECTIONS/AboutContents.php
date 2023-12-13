@@ -3,7 +3,7 @@
 	<link rel="stylesheet" type="text/css" href="CSS/AboutContentsStyle.css">
 	<div class="aboutInnerWrap">
 		<div class="aboutNameWrap">
-			<div class="NameInner_up"></div>
+			<div class="NameInner_Up"></div>
 			<div class="NameInner_Name"></div>
 			<div class="NameInner_Down"></div>
 		</div>
@@ -11,7 +11,7 @@
 			Image
 		</div>-->
 		<div class="aboutKeyWordsWrap">
-			<div class="keyWordsInner_up"></div>
+			<div class="keyWordsInner_Up"></div>
 			<div class="keyWordsInner_KeyWords">
 				<div class="keyWordsInner_keyWords_1"></div>
 				<div class="keyWordsInner_keyWords_2"></div>
