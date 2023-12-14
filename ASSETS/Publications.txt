@@ -1,1 +1,11 @@
 Mean web development: a tutorial for educators$A German, S Salmeron, WY Ha, B Henderson$SIGITE '16: Proceedings of the 17th Annual Conference on Information Technology Education$$$$
+
+Optimizing the location of products in a warehouse using genetic algorithms$WY Ha, K-Y. Cho, CS Han, JL Cho, H Lee$2021 International Conference on Information and Communication Technology Convergence (ICTC)$$$$
+
+A Warehouse Scheduling Using Genetic Algorithm and Collision Index$WY Ha, L Cui, Z-P Jiang$2021 20th International Conference on Advanced Robotics (ICAR)$$$$
+
+Application of Genetic Algorithms to Optimize the Storage Location of Products in Military Logistics$WY Ha, K-Y. Cho, CS Han$The Korea Institute of Military Science and Technology$$$$
+
+Optimizing the Product Locations in Automated Cube Storage Warehouse Using an Enhanced Genetic Algorithm$WY Ha, K-Y. Cho, CS Han, JL Cho, H Lee$International Conference on Robot Intelligence Technology and Applications$$$$
+
+Optimization of Cube Storage Warehouse Scheduling Using Genetic Algorithms$WY Ha, Z-P Jiang$2023 IEEE 19th International Conference on Automation Science and Engineering (CASE)

@@ -1,0 +1,21 @@
+.publications_contents_wrap {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.publicationsInnerWrap {
+	width: 100%;
+}
+
+.listWrap {
+	width: 100%;
+}
+
+.listInner_Up, .listInner_Down {
+	width: 100%;
+	height: 20px;
+}
+
+.listInner_list {
+	width: 100%;
+}
