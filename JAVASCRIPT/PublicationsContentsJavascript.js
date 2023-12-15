@@ -18,8 +18,8 @@ $(document).ready(function() {
 					id: 'publication' + index
 				}).css({
 					"width" : "100%"
-				})
-			).appendTo('.listInner_list')
+				}).appendTo('.listInner_list')
+			)
 		}
 	})
 });
