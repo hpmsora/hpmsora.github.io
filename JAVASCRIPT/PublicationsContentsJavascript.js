@@ -17,7 +17,7 @@ $(document).ready(function() {
 				$('<div/>', {
 					id: 'publication' + index
 				}).css({
-					"width" : "100%"
+					"width" : "100%",
 					"margin-bottom" : "30px"
 				}).appendTo('.listInner_list')
 			)
