@@ -18,6 +18,7 @@ $(document).ready(function() {
 					id: 'publication' + index
 				}).css({
 					"width" : "100%"
+					"marginBottom" : "30px"
 				}).appendTo('.listInner_list')
 			)
 		}
