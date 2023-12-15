@@ -13,7 +13,13 @@ $(document).ready(function() {
 				"text-align":"center",
 				"font":"bold 15px/17px Arial, sans-serif",
 				"white-space":"normal"
-			}).appendTo('.listInner_list')
+			}).appendTo(
+				$('<div/>', {
+					id: 'publication' + index
+				}).css({
+					"width" : "100%"
+				})
+			).appendTo('.listInner_list')
 		}
 	})
 });
