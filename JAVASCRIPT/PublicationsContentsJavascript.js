@@ -15,7 +15,6 @@ $(document).ready(function() {
 
 			$('<p/>', {
 				class: 'publicationList',
-				//text: dataList[index],
 				html: paperInfo
 			}).css({
 				"text-align":"center",
