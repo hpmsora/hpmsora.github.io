@@ -5,7 +5,7 @@ $(document).ready(function() {
 		var newDataList = []
 		var index;
 
-		for (index = 0; index < dataList.length; index++) {
+		for (index = dataList.length - 1; index >= 0 ; index--) {
 			$('<span/>', {
 				class: 'publicationList',
 				text: dataList[index]
