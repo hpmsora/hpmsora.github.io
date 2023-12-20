@@ -11,13 +11,15 @@ $(document).ready(function() {
 			paperAuthors = paperInfoList[1];
 			paperPublication = paperInfoList[2];
 
+			paperInfo = "<span style='font-style:bold'> " + paperTitle + "</span>" + " <span style='font-style:italic'> " + paperAuthors + " </span> " + paperPublication
+
 			$('<p/>', {
 				class: 'publicationList',
 				//text: dataList[index],
-				html: paperTitle + " <span class="italic"> " + paperAuthors + " </span> " + paperPublication
+				html: paperInfo
 			}).css({
 				"text-align":"center",
-				"font":"bold 15px/17px Arial, sans-serif",
+				"font":"15px/17px Arial, sans-serif",
 				"white-space":"normal"
 			}).appendTo(
 				$('<div/>', {
