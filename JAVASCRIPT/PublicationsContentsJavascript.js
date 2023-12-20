@@ -14,7 +14,7 @@ $(document).ready(function() {
 			$('<p/>', {
 				class: 'publicationList',
 				//text: dataList[index],
-				html: paperTitle + "<em>" + paperAuthors + "</em>" + paperPublication
+				html: paperTitle + " <span class="italic"> " + paperAuthors + " </span> " + paperPublication
 			}).css({
 				"text-align":"center",
 				"font":"bold 15px/17px Arial, sans-serif",
