@@ -11,13 +11,13 @@ $(document).ready(function() {
 			paperAuthors = paperInfoList[1];
 			paperPublication = paperInfoList[2];
 
-			paperInfo = "<strong> " + paperTitle + "</strong>" + " <span style='font-style:italic'> " + paperAuthors + " </span> " + paperPublication
+			paperInfo = "<span style='font-weight:bold'> " + paperTitle + "</span>" + " <span style='font-style:italic'> " + paperAuthors + " </span> " + paperPublication
 
 			$('<p/>', {
 				class: 'publicationList',
 				html: paperInfo
 			}).css({
-				"text-align":"center",
+				"text-align":"left",
 				"font":"15px/17px Arial, sans-serif",
 				"white-space":"normal"
 			}).appendTo(
