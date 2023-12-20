@@ -9,7 +9,7 @@ $(document).ready(function() {
 	// Summary Section
 	$.get('/ASSETS/Summary.txt', function(data) {
 		$('<a/>', {
-			text: data
+			html: data
 		}).css({
 			"font-size" : "15px"
 		}).appendTo('.SummaryInner_Summary')
