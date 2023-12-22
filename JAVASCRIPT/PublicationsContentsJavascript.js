@@ -12,7 +12,7 @@ $(document).ready(function() {
 			paperPublication = paperInfoList[2];
 			paperLink = paperInfoList[3];
 
-			paperInfo = "<a style='text-decoration: none; color='black' href=" + paperLink + ">" + "<span style='font-weight:bold'> " + paperTitle + "</span></a>" +  "<span style='font-style:italic'>" + ", " +  paperAuthors + "</span>" + 	"<span>" + ", " + paperPublication + "." + "</span>";
+			paperInfo = "<a style='text-decoration: none; color=black' href=" + paperLink + ">" + "<span style='font-weight:bold'> " + paperTitle + "</span></a>" +  "<span style='font-style:italic'>" + ", " +  paperAuthors + "</span>" + 	"<span>" + ", " + paperPublication + "." + "</span>";
 
 			$('<p/>', {
 				class: 'publicationList',
