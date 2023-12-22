@@ -10,8 +10,9 @@ $(document).ready(function() {
 			paperTitle = paperInfoList[0];
 			paperAuthors = paperInfoList[1];
 			paperPublication = paperInfoList[2];
+			paperLink = paperInfoList[3];
 
-			paperInfo = "<span style='font-weight:bold'> " + paperTitle + "</span>" + ", " + "<span style='font-style:italic'> " + paperAuthors + "</span>" + ", " + paperPublication + "."
+			paperInfo = "<a href=" + paperLink + ">" + "<span style='font-weight:bold'> " + paperTitle + "</span>" + ", " + "<span style='font-style:italic'> " + paperAuthors + "</span>" + ", " + paperPublication + "." + "</a>"
 
 			$('<p/>', {
 				class: 'publicationList',
