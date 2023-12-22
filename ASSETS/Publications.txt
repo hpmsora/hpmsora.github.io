@@ -1,11 +1,11 @@
 Mean web development: a tutorial for educators$A German, S Salmeron, WY Ha, B Henderson$SIGITE '16: Proceedings of the 17th Annual Conference on Information Technology Education$https://ieeexplore.ieee.org/abstract/document/10260388?casa_token=r7tmyPTg7AQAAAAA:R6_xdKykb9QKwtVgB-ZMRUPls7ubluMuXV1oYjCaNJN7XPnKfp6zuhpk_S3IhmUUqayoQG4$$$$
 
-Optimizing the location of products in a warehouse using genetic algorithms$WY Ha, K-Y. Cho, CS Han, JL Cho, H Lee$2021 International Conference on Information and Communication Technology Convergence (ICTC)$-$$$$
+Optimizing the location of products in a warehouse using genetic algorithms$WY Ha, K-Y. Cho, CS Han, JL Cho, H Lee$2021 International Conference on Information and Communication Technology Convergence (ICTC)$https://ieeexplore.ieee.org/abstract/document/9620890?casa_token=JGATFgG2j_kAAAAA:mYR8SGiCUdkh50yv1jINjX2Wz-BgyZun0KqBjUeYMk0CtJ7ungiPtT1xlbjvibirN1le9t0$$$$
 
-A Warehouse Scheduling Using Genetic Algorithm and Collision Index$WY Ha, L Cui, Z-P Jiang$2021 20th International Conference on Advanced Robotics (ICAR)$-$$$$
+A Warehouse Scheduling Using Genetic Algorithm and Collision Index$WY Ha, L Cui, Z-P Jiang$2021 20th International Conference on Advanced Robotics (ICAR)$https://ieeexplore.ieee.org/abstract/document/9659439?casa_token=rvGud4IW6bsAAAAA:iPwT24AcJy_ZWCmYg0P6ceIhnmggLuAM_5c9UkCKMjiFPv-0AEBXkLNXtWy42WQsNGKxTww$$$$
 
-Application of Genetic Algorithms to Optimize the Storage Location of Products in Military Logistics$WY Ha, K-Y. Cho, CS Han$The Korea Institute of Military Science and Technology$-$$$$
+Application of Genetic Algorithms to Optimize the Storage Location of Products in Military Logistics$WY Ha, K-Y. Cho, CS Han$The Korea Institute of Military Science and Technology$https://jkimst.org/journal/view.php?number=1959$$$$
 
-Optimizing the Product Locations in Automated Cube Storage Warehouse Using an Enhanced Genetic Algorithm$WY Ha, K-Y. Cho, CS Han, JL Cho, H Lee$International Conference on Robot Intelligence Technology and Applications$-$$$$
+Optimizing the Product Locations in Automated Cube Storage Warehouse Using an Enhanced Genetic Algorithm$WY Ha, K-Y. Cho, CS Han, JL Cho, H Lee$International Conference on Robot Intelligence Technology and Applications$https://link.springer.com/chapter/10.1007/978-3-030-97672-9_52$$$$
 
-Optimization of Cube Storage Warehouse Scheduling Using Genetic Algorithms$WY Ha, Z-P Jiang$2023 IEEE 19th International Conference on Automation Science and Engineering (CASE)$-
+Optimization of Cube Storage Warehouse Scheduling Using Genetic Algorithms$WY Ha, Z-P Jiang$2023 IEEE 19th International Conference on Automation Science and Engineering (CASE)$https://ieeexplore.ieee.org/abstract/document/10260388?casa_token=RyxQcSwisZUAAAAA:xyVBVWJZ6XmX4vVcKqFaJCFLZ8TCyOfMNzli9djimoWe7IJjcKBpnd0rtlphl5V847AX7I8
