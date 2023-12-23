@@ -64,7 +64,8 @@ $(document).ready(function() {
 		}).css({
 			"text-align":"center",
 			"font":"bold 15px/17px Arial, sans-serif",
-			"white-space":"normal"
+			"white-space":"normal",
+			"margin" : "0 auto"
 		}).appendTo('.aboutQuoteInner_Quote_Quote')
 
 		$('<span/>', {
@@ -73,7 +74,8 @@ $(document).ready(function() {
 		}).css({
 			"text-align":"center",
 			"font":"bold 15px/17px Arial, sans-serif",
-			"white-space":"normal"
+			"white-space":"normal",
+			"margin" : "0 auto"
 		}).appendTo('.aboutQuoteInner_Quote_Authors')
 	})
 });
