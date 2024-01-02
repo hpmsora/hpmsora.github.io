@@ -79,5 +79,3 @@ $(document).ready(function() {
 		}).appendTo('.aboutQuoteInner_Quote_Authors')
 	})
 });
-
-GitHubCalendar(".aboutGitActivitiesWrap", "hpmsora", { responsive: true });
