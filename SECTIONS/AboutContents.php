@@ -1,6 +1,8 @@
 <div class="about_contents_wrap">
+	<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 	<script rel="text/javascript" src="JAVASCRIPT/AboutContentsJavascript.js"></script>
-	<link rel="stylesheet" type="text/css" href="CSS/AboutContentsStyle.css">
+	<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+	<link rel="stylesheet" type="text/css" href="CSS/AboutContentsStyle.css"/>
 	<div class="aboutInnerWrap">
 		<div class="aboutNameWrap">
 			<div class="NameInner_Up"></div>
@@ -23,6 +25,9 @@
 				<div class="keyWordsInner_keyWords_3"></div>
 			</div>
 			<div class="keyWordsInner_Down"></div>
+		</div>
+		<div class="aboutGitActivitiesWrap">
+	    	Loading the data just for you.
 		</div>
 		<div class="aboutQuotesWrap">
 			<div class="aboutQuoteInner_Up"></div>
