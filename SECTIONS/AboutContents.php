@@ -1,11 +1,5 @@
 <div class="about_contents_wrap">
-	<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 	<script rel="text/javascript" src="JAVASCRIPT/AboutContentsJavascript.js"></script>
-	<script type="text/javascript">
-		
-		GitHubCalendar(".aboutGitActivitiesWrap", "hpmsora", { responsive: true });
-	</script>
-	<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 	<link rel="stylesheet" type="text/css" href="CSS/AboutContentsStyle.css"/>
 	<div class="aboutInnerWrap">
 		<div class="aboutNameWrap">
@@ -31,7 +25,7 @@
 			<div class="keyWordsInner_Down"></div>
 		</div>
 		<div class="aboutGitActivitiesWrap">
-	    	Loading the data just for you.
+	    	Loading the calendar
 		</div>
 		<div class="aboutQuotesWrap">
 			<div class="aboutQuoteInner_Up"></div>
