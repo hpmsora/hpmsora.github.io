@@ -1,5 +1,12 @@
 $(document).ready(function() {
-	// Publication List Section
+	// Paper List Title Section
+	$('<a/>', {
+		text: 'Published Paper'
+	}).css({
+		"font-size" : "30px"
+	}).appendTo('.paper_title')
+
+	// Paper List Section
 	$.get('/ASSETS/Publications.txt', function(data) {
 		var dataList = data.split('$$$$');
 		var newDataList = [];
@@ -27,7 +34,7 @@ $(document).ready(function() {
 				}).css({
 					"width" : "100%",
 					"margin-bottom" : "30px"
-				}).appendTo('.listInner_list')
+				}).appendTo('.paper_listInner_list')
 			)
 		}
 	})

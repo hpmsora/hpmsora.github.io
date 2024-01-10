@@ -7,15 +7,19 @@
 	width: 100%;
 }
 
-.listWrap {
+.paper_title {
 	width: 100%;
 }
 
-.listInner_Up, .listInner_Down {
+.paper_listWrap {
+	width: 100%;
+}
+
+.paper_listInner_Up, .paper_listInner_Down {
 	width: 100%;
 	height: 20px;
 }
 
-.listInner_list {
+.paper_listInner_list {
 	width: 100%;
 }
