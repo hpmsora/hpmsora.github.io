@@ -15,23 +15,23 @@ $(document).ready(function() {
 	    		"white-space":"normal",
 	    		"display":"block"
 	    	}).appendTo(
-	    	$('<a/>', {
-		    	href: value.html_url,
-		    	class: "WorkContent_ContentBox_" + index
-		    }).mouseenter(function() {
-		    	$(this).css({
-		    		"-webkit-box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)",
-		    		"-moz-box-shadow": "1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)",
-		    		"box-shadow": "1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)"
-		    	})
-		    }).mouseleave(function() {
-		    	$(this).css({
-		    		"-webkit-box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
-		    		"-moz-box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
-		    		"box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)"
-		    	})
-		    }).css({
-		    	"display":"inline-block",
+		    	$('<a/>', {
+			    	href: value.html_url,
+			    	class: "WorkContent_ContentBox_" + index
+			    }).mouseenter(function() {
+			    	$(this).css({
+			    		"-webkit-box-shadow":"1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)",
+			    		"-moz-box-shadow": "1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)",
+			    		"box-shadow": "1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5)"
+			    	})
+			    }).mouseleave(function() {
+			    	$(this).css({
+			    		"-webkit-box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
+			    		"-moz-box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)",
+			    		"box-shadow":"1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44)"
+			    	})
+			    }).css({
+			    	"display":"inline-block",
 					"width":"100%",
 					"height":"100%",
 					"margin":"0px",
@@ -64,36 +64,36 @@ $(document).ready(function() {
 					"-ms-transition":"all 0.15s ease",
 					"transition":"all 0.15s ease"
 				}).appendTo(
-				$('<div/>', {
-					class: 'WorkContent_InnerWrap_class',
-					id: 'WorkContent_InnerWrap_id'
-				}).css({
-					"width":"20vw",
-					"height":"20vw",
-					"max-width":"190px",
-					"max-height":"100px",
-					"mhttps://www.w3schools.com/jquery/jquery_dom_set.aspargin-bottom":"-100%"
-				}).appendTo(
-				$('<div/>', {
-					class: 'WorkContent_OuterWrap_class',
-					id : 'WorkContent_OuterWrap_id'
-				}).css({
-			    "width":"25%",
-			    "max-width":"190px",
-			    "float":"left"
-			  }).appendTo('.work_contents_wrap')
+					$('<div/>', {
+						class: 'WorkContent_InnerWrap_class',
+						id: 'WorkContent_InnerWrap_id'
+					}).css({
+						"width":"20vw",
+						"height":"20vw",
+						"max-width":"190px",
+						"max-height":"100px",
+						"mhttps://www.w3schools.com/jquery/jquery_dom_set.aspargin-bottom":"-100%"
+					}).appendTo(
+						$('<div/>', {
+							class: 'WorkContent_OuterWrap_class',
+							id : 'WorkContent_OuterWrap_id'
+						}).css({
+						    "width":"25%",
+						    "max-width":"190px",
+						    "float":"left"
+				  		}).appendTo('.work_contents_wrap')
+					)
 				)
-				)
-				)
+			)
 
-				$('<span/>', {
-					text: name
-				}).css({
-					"white-space":"normal",
-	    		"display":"block"
-				}).appendTo('.WorkContent_ContentBox_' + index)
+			$('<span/>', {
+				text: name
+			}).css({
+				"white-space":"normal",
+    			"display":"block"
+			}).appendTo('.WorkContent_ContentBox_' + index)
 
-			});
+		});
 	  }
 	});
 });
