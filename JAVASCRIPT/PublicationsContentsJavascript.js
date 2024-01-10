@@ -4,7 +4,7 @@ $(document).ready(function() {
 		text: 'Published Paper'
 	}).css({
 		"font-size" : "30px"
-	}).appendTo('.paper_title')
+	}).appendTo('.paper_titleInner_title')
 
 	// Paper List Section
 	$.get('/ASSETS/Publications.txt', function(data) {
