@@ -1,6 +1,4 @@
 <div class="about_contents_wrap">
-	<script rel="text/javascript" src="JAVASCRIPT/AboutContentsJavascript.js"></script>
-	<link rel="stylesheet" type="text/css" href="CSS/AboutContentsStyle.css"/>
 	<div class="aboutInnerWrap">
 		<div class="aboutNameWrap">
 			<div class="NameInner_Up"></div>
@@ -41,4 +39,8 @@
 			<div class="aboutResumeButtonInner_Down"></div>
 		</div>
 	</div>
+
+	// Link
+	<script rel="text/javascript" src="JAVASCRIPT/AboutContentsJavascript.js"></script>
+	<link rel="stylesheet" type="text/css" href="CSS/AboutContentsStyle.css"/>
 </div>

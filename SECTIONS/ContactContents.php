@@ -1,6 +1,4 @@
 <div class="contact_contents_wrap">
-	<link rel="stylesheet" type="text/css" href="CSS/ContactContentsStyle.css">
-	<script rel="text/javascript" src="JAVASCRIPT/ContactContentsJavascript.js"></script>
 	<div class="contactInnerWarp">
 		<div class="contactQuoteWrap">
 			<div class="contactQuoteInner_Up"></div>
@@ -49,4 +47,8 @@
 			</div>
 		</div>
 	</div>
+
+	// Link
+	<link rel="stylesheet" type="text/css" href="CSS/ContactContentsStyle.css">
+	<script rel="text/javascript" src="JAVASCRIPT/ContactContentsJavascript.js"></script>
 </div>

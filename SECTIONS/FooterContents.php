@@ -7,4 +7,6 @@
     <a href="https://github.com/hpmsora"><img src="ASSETS/Github_Icon.png" alt="LinkedIn Profile" height="20px" width="20px"></a>
   </span>
 </div>
+
+// Link
 <link rel="stylesheet" type="text/css" href="CSS/FooterContentsStyle.css"/>

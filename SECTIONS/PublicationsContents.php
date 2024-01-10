@@ -1,6 +1,4 @@
 <div class="publications_contents_wrap">
-   <script rel="text/javascript" src="JAVASCRIPT/PublicationsContentsJavascript.js"></script>
-   <link rel="stylesheet" type="text/css" href="CSS/PublicationsContentsStyle.css">
    <div class="publicationsInnerWrap">
       <div class="paper_listWrap">
          <div class="paper_titleInner_Up"></div>
@@ -19,4 +17,8 @@
          <div class="project_listInner_Down"></div>
       </div>
    </div>
+
+   // Link
+   <script rel="text/javascript" src="JAVASCRIPT/PublicationsContentsJavascript.js"></script>
+   <link rel="stylesheet" type="text/css" href="CSS/PublicationsContentsStyle.css">
 </div>
