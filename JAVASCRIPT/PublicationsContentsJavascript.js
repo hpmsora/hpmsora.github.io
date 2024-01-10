@@ -38,4 +38,11 @@ $(document).ready(function() {
 			)
 		}
 	})
+
+	// Paper List Title Section
+	$('<a/>', {
+		text: 'Academic Project'
+	}).css({
+		"font-size" : "30px"
+	}).appendTo('.project_titleInner_title')
 });

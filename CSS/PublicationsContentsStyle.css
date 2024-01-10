@@ -7,20 +7,20 @@
 	width: 100%;
 }
 
-.paper_titleInner_title {
+.paper_listWrap, .project_listWrap {
 	width: 100%;
 }
 
-.paper_titleInner_Up, .paper_titleInner_Down {
+.paper_titleInner_Up, .paper_titleInner_Down, .project_titleInner_Up, .project_titleInner_Down {
 	width: 100%;
 	height: 20px;
 }
 
-.paper_listWrap {
+.paper_titleInner_title, .project_titleInner_title {
 	width: 100%;
 }
 
-.paper_listInner_Up, .paper_listInner_Down {
+.paper_listInner_Up, .paper_listInner_Down, .project_listInner_Up, .project_listInner_Down {
 	width: 100%;
 	height: 20px;
 }
@@ -28,3 +28,4 @@
 .paper_listInner_list {
 	width: 100%;
 }
+
