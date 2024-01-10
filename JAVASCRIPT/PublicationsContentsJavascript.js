@@ -47,7 +47,7 @@ $(document).ready(function() {
 	}).appendTo('.project_titleInner_title')
 
 	// Project List Section
-	$.get('/ASSETS/PROJECTS/Projects.txt', function(data) {
+	$.get('/ASSETS/PROJECTS/projects.txt', function(data) {
 		var dataList = data.split('$$$$');
 		var newDataList = [];
 		var index;
