@@ -1,3 +1,4 @@
+<?php
 <div class="about_contents_wrap">
 	<div class="aboutInnerWrap">
 		<div class="aboutNameWrap">
@@ -44,3 +45,4 @@
 	<script rel="text/javascript" src="JAVASCRIPT/AboutContentsJavascript.js"></script>
 	<link rel="stylesheet" type="text/css" href="CSS/AboutContentsStyle.css"/>
 </div>
+?>
