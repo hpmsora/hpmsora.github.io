@@ -11,5 +11,4 @@
   <div id="navC4Mobile_id" class="navCMobile"></div>
 </div>
 
-// Link
 <script rel="text/javascript" src="JAVASCRIPT/MainNavigationJavascript.js"></script>

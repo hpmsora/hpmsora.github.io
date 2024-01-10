@@ -18,7 +18,6 @@
       </div>
    </div>
 
-   // Link
    <script rel="text/javascript" src="JAVASCRIPT/PublicationsContentsJavascript.js"></script>
    <link rel="stylesheet" type="text/css" href="CSS/PublicationsContentsStyle.css">
 </div>

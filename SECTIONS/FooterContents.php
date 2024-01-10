@@ -8,5 +8,4 @@
   </span>
 </div>
 
-// Link
 <link rel="stylesheet" type="text/css" href="CSS/FooterContentsStyle.css"/>

@@ -48,7 +48,6 @@
 		</div>
 	</div>
 
-	// Link
 	<link rel="stylesheet" type="text/css" href="CSS/ContactContentsStyle.css">
 	<script rel="text/javascript" src="JAVASCRIPT/ContactContentsJavascript.js"></script>
 </div>
