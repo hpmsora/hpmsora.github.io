@@ -7,8 +7,13 @@
 	width: 100%;
 }
 
-.paper_title {
+.paper_titleInner_title {
 	width: 100%;
+}
+
+.paper_titleInner_Up, .paper_titleInner_Down {
+	width: 100%;
+	height: 20px;
 }
 
 .paper_listWrap {
