@@ -15,6 +15,8 @@ $(document).ready(function() {
 		}).appendTo('.SummaryInner_Summary')
 	})
 
+	
+
 	// Quote Section
 	$.get('/ASSETS/Quotes.txt', function(data) {
 		var dataList = data.split('$$$$');

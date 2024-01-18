@@ -22,6 +22,11 @@
 			</div>
 			<div class="keyWordsInner_Down"></div>
 		</div>
+		<div class="aboutCertificationWrap">
+			<div class="certificationInner_Up"></div>
+			<div class="certificationInner_Certification"></div>
+			<div class="certificationInner_Down"></div>
+		</div>
 		<div class="aboutGitActivitiesWrap">
 	    	Loading the calendar
 		</div>

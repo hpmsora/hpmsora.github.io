@@ -7,6 +7,8 @@
 	width: 100%;
 }
 
+
+/* Name */
 .aboutNameWrap {
 	width: 100%;
 	height: 80px;
@@ -22,6 +24,7 @@
 	height: 40px;
 }
 
+/* Summary */
 .aboutSummaryWrap {
 	width: 100%;
 }
@@ -35,6 +38,7 @@
 	width: 100%;
 }
 
+/* Key Words */
 .aboutKeyWordsWrap {
 	width: 100%;
 	height: 100px;
@@ -67,6 +71,23 @@
 	width: 33.33%;
 }
 
+
+.aboutCertificationWrap {
+	width: 100%;
+	height: 100px;
+}
+
+.certificationInner_Up, .certificationInner_Down {
+	width: 100%;
+	height: 20px;
+}
+
+.certificationInner_Certification {
+	width: 100%;
+	height: 20px;
+}
+
+/* Quotes */
 .aboutQuotesWrap {
 	width: 100%;
 }
@@ -89,6 +110,7 @@
 	width: 100%;
 }
 
+/* Resume */
 .aboutResumeButtonWrap {
 	width: 100%;
 	height: 100px;
