@@ -15,14 +15,6 @@ $(document).ready(function() {
 		}).appendTo('.SummaryInner_Summary')
 	})
 
-	// Resume Button
-	$('<a/>', {
-		class: 'aboutResumeButton',
-		href: '/ASSETS/ResumeWonYongHa.pdf',
-		target: '_blank',
-		text: 'RESUME'
-	}).appendTo('.aboutResumeButtonInner_Button')
-
 	// Quote Section
 	$.get('/ASSETS/Quotes.txt', function(data) {
 		var dataList = data.split('$$$$');
@@ -78,4 +70,12 @@ $(document).ready(function() {
 			"margin" : "0 auto"
 		}).appendTo('.aboutQuoteInner_Quote_Authors')
 	})
+
+	// Resume Button
+	$('<a/>', {
+		class: 'aboutResumeButton',
+		href: '/ASSETS/ResumeWonYongHa.pdf',
+		target: '_blank',
+		text: 'RESUME'
+	}).appendTo('.aboutResumeButtonInner_Button')
 });
