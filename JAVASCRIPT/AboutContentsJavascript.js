@@ -15,7 +15,37 @@ $(document).ready(function() {
 		}).appendTo('.SummaryInner_Summary')
 	})
 
-	
+	// Certification Section
+	$.get('/ASSETS/PROJECTS/Certifications.txt', function(data) {
+		var dataList = data.split('$$$$');
+		var newDataList = [];
+		var index;
+
+		for (index = dataList.length - 1; index >= 0 ; index--) {
+			certificationInfoList = dataList[index].split('$');
+			certificationTitle = projectInfoList[0];
+			certificationInstitute = projectInfoList[1];
+			certificationDate = projectInfoList[2];
+
+			certificationInfo = "<a style='text-decoration: none; color: inherit'>" + "<span style='font-weight:bold'> " + certificationTitle + "</span></a>" +  "<span style='font-style:italic'>" + ", " +  certificationInstitute + "</span>" + 	"<span>" + ", " + certificationDate + "." + "</span>";
+
+			$('<p/>', {
+				class: 'projectList',
+				html: certificationInfo
+			}).css({
+				"text-align":"left",
+				"font":"15px/17px Arial, sans-serif",
+				"white-space":"normal"
+			}).appendTo(
+				$('<div/>', {
+					id: 'project' + index
+				}).css({
+					"width" : "100%",
+					"margin-bottom" : "30px"
+				}).appendTo('.certificationInner_Certification')
+			)
+		}
+	})
 
 	// Quote Section
 	$.get('/ASSETS/Quotes.txt', function(data) {

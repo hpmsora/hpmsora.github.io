@@ -59,11 +59,11 @@ $(document).ready(function() {
 			projectDate = projectInfoList[2];
 			projectLink = projectInfoList[3];
 
-			paperInfo = "<a style='text-decoration: none; color: inherit' href=/ASSETS/PROJECTS/" + projectLink + ">" + "<span style='font-weight:bold'> " + projectTitle + "</span></a>" +  "<span style='font-style:italic'>" + ", " +  projectInstitute + "</span>" + 	"<span>" + ", " + projectDate + "." + "</span>";
+			projectInfo = "<a style='text-decoration: none; color: inherit' href=/ASSETS/PROJECTS/" + projectLink + ">" + "<span style='font-weight:bold'> " + projectTitle + "</span></a>" +  "<span style='font-style:italic'>" + ", " +  projectInstitute + "</span>" + 	"<span>" + ", " + projectDate + "." + "</span>";
 
 			$('<p/>', {
 				class: 'projectList',
-				html: paperInfo
+				html: projectInfo
 			}).css({
 				"text-align":"left",
 				"font":"15px/17px Arial, sans-serif",
