@@ -23,6 +23,9 @@
 			<div class="keyWordsInner_Down"></div>
 		</div>
 		<div class="aboutCertificationWrap">
+			<div class="Certification_titleInner_Up"></div>
+         	<div class="Certification_titleInner_title"></div>
+         	<div class="Certification_titleInner_Down"></div>
 			<div class="certificationInner_Up"></div>
 			<div class="certificationInner_Certification"></div>
 			<div class="certificationInner_Down"></div>

@@ -15,6 +15,13 @@ $(document).ready(function() {
 		}).appendTo('.SummaryInner_Summary')
 	})
 
+	// Certification List Title Section
+	$('<a/>', {
+		text: 'Certifications'
+	}).css({
+		"font-size" : "30px"
+	}).appendTo('.Certification_titleInner_title')
+
 	// Certification Section
 	$.get('/ASSETS/Certifications.txt', function(data) {
 		var dataList = data.split('$$$$');

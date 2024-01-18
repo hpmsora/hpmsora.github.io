@@ -72,6 +72,16 @@
 }
 
 
+/* Certifications */
+.Certification_titleInner_Up, .Certification_titleInner_Down {
+	width: 100%;
+	height: 20px;
+}
+
+.Certification_titleInner_title {
+	width: 100%;
+}
+
 .aboutCertificationWrap {
 	width: 100%;
 	height: 100px;
@@ -86,6 +96,7 @@
 	width: 100%;
 	height: 20px;
 }
+
 
 /* Quotes */
 .aboutQuotesWrap {
