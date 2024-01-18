@@ -23,9 +23,9 @@ $(document).ready(function() {
 
 		for (index = dataList.length - 1; index >= 0 ; index--) {
 			certificationInfoList = dataList[index].split('$');
-			certificationTitle = projectInfoList[0];
-			certificationInstitute = projectInfoList[1];
-			certificationDate = projectInfoList[2];
+			certificationTitle = certificationInfoList[0];
+			certificationInstitute = certificationInfoList[1];
+			certificationDate = certificationInfoList[2];
 
 			certificationInfo = "<a style='text-decoration: none; color: inherit'>" + "<span style='font-weight:bold'> " + certificationTitle + "</span></a>" +  "<span style='font-style:italic'>" + ", " +  certificationInstitute + "</span>" + 	"<span>" + ", " + certificationDate + "." + "</span>";
 
