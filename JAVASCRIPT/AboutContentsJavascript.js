@@ -16,7 +16,7 @@ $(document).ready(function() {
 	})
 
 	// Certification Section
-	$.get('/ASSETS/PROJECTS/Certifications.txt', function(data) {
+	$.get('/ASSETS/Certifications.txt', function(data) {
 		var dataList = data.split('$$$$');
 		var newDataList = [];
 		var index;
