@@ -20,7 +20,7 @@ $(document).ready(function() {
 		text: 'Certifications'
 	}).css({
 		"font-size" : "30px"
-	}).appendTo('.Certification_titleInner_title')
+	}).appendTo('.certification_titleInner_title')
 
 	// Certification Section
 	$.get('/ASSETS/Certifications.txt', function(data) {

@@ -22,10 +22,18 @@
 			</div>
 			<div class="keyWordsInner_Down"></div>
 		</div>
+		<div class="aboutEducationWrap">
+			<div class="education_titleInner_Up"></div>
+         	<div class="education_titleInner_title"></div>
+         	<div class="education_titleInner_Down"></div>
+			<div class="educationInner_Up"></div>
+			<div class="educationInner_Certification"></div>
+			<div class="educationInner_Down"></div>
+		</div>
 		<div class="aboutCertificationWrap">
-			<div class="Certification_titleInner_Up"></div>
-         	<div class="Certification_titleInner_title"></div>
-         	<div class="Certification_titleInner_Down"></div>
+			<div class="certification_titleInner_Up"></div>
+         	<div class="certification_titleInner_title"></div>
+         	<div class="certification_titleInner_Down"></div>
 			<div class="certificationInner_Up"></div>
 			<div class="certificationInner_Certification"></div>
 			<div class="certificationInner_Down"></div>

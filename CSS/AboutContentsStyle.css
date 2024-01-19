@@ -73,16 +73,16 @@
 
 
 /* Certifications */
-.Certification_titleInner_Up, .Certification_titleInner_Down {
+.aboutCertificationWrap {
+	width: 100%;
+}
+
+.certification_titleInner_Up, .certification_titleInner_Down {
 	width: 100%;
 	height: 20px;
 }
 
-.Certification_titleInner_title {
-	width: 100%;
-}
-
-.aboutCertificationWrap {
+.certification_titleInner_title {
 	width: 100%;
 }
 
