@@ -15,6 +15,13 @@ $(document).ready(function() {
 		}).appendTo('.SummaryInner_Summary')
 	})
 
+	// Education List Title Section
+	$('<a/>', {
+		text: 'Educations'
+	}).css({
+		"font-size" : "30px"
+	}).appendTo('.education_titleInner_title')
+
 	// Certification List Title Section
 	$('<a/>', {
 		text: 'Certifications'

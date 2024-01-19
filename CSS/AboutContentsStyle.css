@@ -71,6 +71,29 @@
 	width: 33.33%;
 }
 
+/* Education */
+.aboutEducationWrap {
+	width: 100%;
+}
+
+.education_titleInner_Up, .education_titleInner_Down {
+	width: 100%;
+	height: 20px;
+}
+
+.education_titleInner_title {
+	width: 100%;
+}
+
+.educationInner_Up, .educationInner_Down {
+	width: 100%;
+	height: 20px;
+}
+
+.educationInner_Education {
+	width: 100%;
+	height: 20px;
+}
 
 /* Certifications */
 .aboutCertificationWrap {

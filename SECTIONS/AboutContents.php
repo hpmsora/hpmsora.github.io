@@ -27,7 +27,7 @@
          	<div class="education_titleInner_title"></div>
          	<div class="education_titleInner_Down"></div>
 			<div class="educationInner_Up"></div>
-			<div class="educationInner_Certification"></div>
+			<div class="educationInner_Education"></div>
 			<div class="educationInner_Down"></div>
 		</div>
 		<div class="aboutCertificationWrap">
