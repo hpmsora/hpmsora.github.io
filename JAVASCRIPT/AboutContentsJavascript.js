@@ -42,7 +42,7 @@ $(document).ready(function() {
 			+ "<span> " + educationDepartment + "</span>"
 			+ "<span> " + educationStart + "</span>"
 			+ "<span>" + " - " + "</span>"
-			+ "<span> " + educationStart + "</span>"
+			+ "<span> " + educationEnd + "</span>"
 			+ "</br>"
 			+ "<span style='font-style:italic'>" + educationDegree + "</span>"
 			+ "<span> " + educationMajor + "</span>";
