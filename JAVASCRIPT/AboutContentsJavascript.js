@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 			$('<p/>', {
 				class: 'projectList',
-				html: certificationInfo
+				html: educationInfo
 			}).css({
 				"text-align":"left",
 				"font":"15px/17px Arial, sans-serif",
