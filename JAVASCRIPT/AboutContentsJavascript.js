@@ -37,7 +37,12 @@ $(document).ready(function() {
 			educationStart = educationInfoList[4];
 			educationEnd = educationInfoList[5];
 
-			educationInfo = "<a style='text-decoration: none; color: inherit'>" + "<span style='font-weight:bold'> " + educationInstitute + "</span></a>" +  "<span> " + educationDepartment + "</span>" + "<span> " + educationStart + "</span></br>" + "<span style='font-style:italic'>" + educationDegree + "</span>" + "<span> " + educationMajor + "</span>";
+			educationInfo = \
+			"<a style='text-decoration: none; color: inherit'>" + "<span style='font-weight:bold'> " + educationInstitute + "</span></a>" \
+			+ "<span> " + educationDepartment + "</span>"\
+			+ "<span> " + educationStart + "</span></br>"\
+			+ "<span style='font-style:italic'>" + educationDegree + "</span>"\
+			+ "<span> " + educationMajor + "</span>";
 
 			$('<p/>', {
 				class: 'projectList',
