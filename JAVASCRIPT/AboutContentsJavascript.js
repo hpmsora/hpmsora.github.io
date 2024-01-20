@@ -23,7 +23,7 @@ $(document).ready(function() {
 	}).appendTo('.education_titleInner_title')
 
 	// Education Section
-	$.get('/ASSETS/Educations.txt', function(data) {
+	$.get('/ASSETS/Education.txt', function(data) {
 		var dataList = data.split('$$$$');
 		var newDataList = [];
 		var index;
