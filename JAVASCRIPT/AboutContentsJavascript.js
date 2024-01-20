@@ -22,6 +22,40 @@ $(document).ready(function() {
 		"font-size" : "30px"
 	}).appendTo('.education_titleInner_title')
 
+	// Education Section
+	$.get('/ASSETS/Educations.txt', function(data) {
+		var dataList = data.split('$$$$');
+		var newDataList = [];
+		var index;
+
+		for (index = dataList.length - 1; index >= 0 ; index--) {
+			educationInfoList = dataList[index].split('$');
+			educationInstitute = educationInfoList[0];
+			educationDepartment = educationInfoList[1];
+			educationMajor = educationInfoList[2];
+			educationStart = educationInfoList[2];
+			educationEnd = educationInfoList[2];
+
+			educationInfo = "<a style='text-decoration: none; color: inherit'>" + "<span style='font-weight:bold'> " + educationInstitute + "</span></a>" +  "<span style='font-style:italic'>" + ", " +  educationDepartment + "</span>" + "<span>" + ", " + educationMajor + "." + "</span>";
+
+			$('<p/>', {
+				class: 'projectList',
+				html: certificationInfo
+			}).css({
+				"text-align":"left",
+				"font":"15px/17px Arial, sans-serif",
+				"white-space":"normal"
+			}).appendTo(
+				$('<div/>', {
+					id: 'education' + index
+				}).css({
+					"width" : "100%",
+					"margin-bottom" : "30px"
+				}).appendTo('.educationInner_Education')
+			)
+		}
+	})
+
 	// Certification List Title Section
 	$('<a/>', {
 		text: 'Certifications'
@@ -41,7 +75,7 @@ $(document).ready(function() {
 			certificationInstitute = certificationInfoList[1];
 			certificationDate = certificationInfoList[2];
 
-			certificationInfo = "<a style='text-decoration: none; color: inherit'>" + "<span style='font-weight:bold'> " + certificationTitle + "</span></a>" +  "<span style='font-style:italic'>" + ", " +  certificationInstitute + "</span>" + 	"<span>" + ", " + certificationDate + "." + "</span>";
+			certificationInfo = "<a style='text-decoration: none; color: inherit'>" + "<span style='font-weight:bold'> " + certificationTitle + "</span></a>" +  "<span style='font-style:italic'>" + ", " +  certificationInstitute + "</span>" + "<span>" + ", " + certificationDate + "." + "</span>";
 
 			$('<p/>', {
 				class: 'projectList',
@@ -52,7 +86,7 @@ $(document).ready(function() {
 				"white-space":"normal"
 			}).appendTo(
 				$('<div/>', {
-					id: 'project' + index
+					id: 'certification' + index
 				}).css({
 					"width" : "100%",
 					"margin-bottom" : "30px"
