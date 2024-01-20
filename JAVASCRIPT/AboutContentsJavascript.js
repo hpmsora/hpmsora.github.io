@@ -32,11 +32,12 @@ $(document).ready(function() {
 			educationInfoList = dataList[index].split('$');
 			educationInstitute = educationInfoList[0];
 			educationDepartment = educationInfoList[1];
-			educationMajor = educationInfoList[2];
-			educationStart = educationInfoList[2];
-			educationEnd = educationInfoList[2];
+			educationDegree = educationInfoList[2];
+			educationMajor = educationInfoList[3];
+			educationStart = educationInfoList[4];
+			educationEnd = educationInfoList[5];
 
-			educationInfo = "<a style='text-decoration: none; color: inherit'>" + "<span style='font-weight:bold'> " + educationInstitute + "</span></a>" +  "<span style='font-style:italic'>" + ", " +  educationDepartment + "</span>" + "<span>" + ", " + educationMajor + "." + "</span>";
+			educationInfo = "<a style='text-decoration: none; color: inherit'>" + "<span style='font-weight:bold'> " + educationInstitute + "</span></a>" +  "<span style='font-style:italic'>" + educationDepartment + "</span></br>" + "<span>" + educationDegree + "</span>" + "<span>" + educationMajor + </span>";
 
 			$('<p/>', {
 				class: 'projectList',
