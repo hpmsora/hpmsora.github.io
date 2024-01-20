@@ -19,7 +19,10 @@ $(document).ready(function() {
 			paperPublication = paperInfoList[2];
 			paperLink = paperInfoList[3];
 
-			paperInfo = "<a style='text-decoration: none; color: inherit' href=" + paperLink + ">" + "<span style='font-weight:bold'> " + paperTitle + "</span></a>" +  "<span style='font-style:italic'>" + ", " +  paperAuthors + "</span>" + 	"<span>" + ", " + paperPublication + "." + "</span>";
+			paperInfo =
+			"<a style='text-decoration: none; color: inherit' href=" + paperLink + ">" + "<span style='font-weight:bold'> " + paperTitle + "</span></a>"
+			+ "<span style='font-style:italic'>" + ", " +  paperAuthors + "</span>"
+			+ "<span>" + ", " + paperPublication + "." + "</span>";
 
 			$('<p/>', {
 				class: 'publicationList',
@@ -59,7 +62,9 @@ $(document).ready(function() {
 			projectDate = projectInfoList[2];
 			projectLink = projectInfoList[3];
 
-			projectInfo = "<a style='text-decoration: none; color: inherit' href=/ASSETS/PROJECTS/" + projectLink + ">" + "<span style='font-weight:bold'> " + projectTitle + "</span></a>" +  "<span style='font-style:italic'>" + ", " +  projectInstitute + "</span>" + 	"<span>" + ", " + projectDate + "." + "</span>";
+			projectInfo = "<a style='text-decoration: none; color: inherit' href=/ASSETS/PROJECTS/" + projectLink + ">" + "<span style='font-weight:bold'> " + projectTitle + "</span></a>"
+			+ "<span style='font-style:italic'>" + ", " +  projectInstitute + "</span>"
+			+ "<span>" + ", " + projectDate + "." + "</span>";
 
 			$('<p/>', {
 				class: 'projectList',

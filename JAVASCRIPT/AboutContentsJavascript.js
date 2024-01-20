@@ -86,8 +86,8 @@ $(document).ready(function() {
 
 			certificationInfo =
 			"<a style='text-decoration: none; color: inherit'>" + "<span style='font-weight:bold'> " + certificationTitle + "</span></a>"
-			+ "<span style='font-style:italic'>" + ", " +  certificationInstitute + "</span>"
-			+ "<span>" + ", " + certificationDate + "." + "</span>";
+			+ "<span style='font-style:italic'> " + certificationInstitute + "</span>"
+			+ "<span> " + certificationDate + "</span>";
 
 			$('<p/>', {
 				class: 'projectList',
