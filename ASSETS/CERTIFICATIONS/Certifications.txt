@@ -1,3 +1,3 @@
-Oracle Certified Professional, Java SE 6 Programmer$Oracle$Jan 2015$Oracle_OCJP$$$$
-Oracle Certified Professional, Java EE 5 Web Component Developer$Oracle$Feb 2015$Oracle_OCWCD$$$$
-CompTIA IT Fundamentals Certification$CompTIA$Aug 2016$CompTI_ IT_Fundamentals.pdf
+Oracle Certified Professional, Java SE 6 Programmer$Oracle$Jan 2015$Oracle_OCJP.pdf$$$$
+Oracle Certified Professional, Java EE 5 Web Component Developer$Oracle$Feb 2015$Oracle_OCWCD.pdf$$$$
+CompTIA IT Fundamentals Certification$CompTIA$Aug 2016$CompTI_IT_Fundamentals.pdf
