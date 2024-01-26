@@ -73,7 +73,7 @@ $(document).ready(function() {
 	}).appendTo('.certification_titleInner_title')
 
 	// Certification Section
-	$.get('/ASSETS/Certifications.txt', function(data) {
+	$.get('/ASSETS/CERTIFICATIONS/Certifications.txt', function(data) {
 		var dataList = data.split('$$$$');
 		var newDataList = [];
 		var index;
