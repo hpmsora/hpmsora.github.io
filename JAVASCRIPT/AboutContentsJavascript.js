@@ -83,9 +83,10 @@ $(document).ready(function() {
 			certificationTitle = certificationInfoList[0];
 			certificationInstitute = certificationInfoList[1];
 			certificationDate = certificationInfoList[2];
+			certificationLink = certificationInfoList[3];
 
 			certificationInfo =
-			"<a style='text-decoration: none; color: inherit'>" + "<span style='font-weight:bold'> " + certificationTitle + "</span></a>"
+			"<a style='text-decoration: none; color: inherit' href=" + certificationLink + ">" + "<span style='font-weight:bold'> " + certificationTitle + "</span></a>"
 			+ "<span style='font-style:italic'> " + certificationInstitute + "</span>"
 			+ "<span> " + certificationDate + "</span>";
 
