@@ -11,7 +11,7 @@
 			<div class="contactImageInner_Up"></div>
 			<div class="contactImageInner_Image">
 				<a href="#" onclick="LogoImageClick()">
-					<img id="Contact_Image_id" class = "Contact_Image" data-status="LogoImage_1" src="ASSETS/LogoImage_1.png">
+					<img id="Contact_Image_id" class = "Contact_Image" data-status="LogoImage_1" src="ASSETS/ICONS/LogoImage_1.png">
 				</a>
 			</div>
 			<div class="contactImageInner_Down"></div>
