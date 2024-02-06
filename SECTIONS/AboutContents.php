@@ -22,6 +22,14 @@
 			</div>
 			<div class="keyWordsInner_Down"></div>
 		</div>
+		<div class="aboutExperienceWrap">
+			<div class="experience_titleInner_Up"></div>
+         	<div class="experience_titleInner_title"></div>
+         	<div class="experience_titleInner_Down"></div>
+			<div class="experienceInner_Up"></div>
+			<div class="experienceInner_Experience"></div>
+			<div class="experienceInner_Down"></div>
+		</div>
 		<div class="aboutEducationWrap">
 			<div class="education_titleInner_Up"></div>
          	<div class="education_titleInner_title"></div>

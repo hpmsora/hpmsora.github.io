@@ -71,6 +71,29 @@
 	width: 33.33%;
 }
 
+/* Experience */
+.aboutExperienceWrap {
+	width: 100%;
+}
+
+.experience_titleInner_Up, .experience_titleInner_Down {
+	width: 100%;
+	height: 20px;
+}
+
+.experience_titleInner_title {
+	width: 100%;
+}
+
+.experienceInner_Up, .experienceInner_Down {
+	width: 100%;
+	height: 20px;
+}
+
+.experienceInner_Experience {
+	width: 100%;
+}
+
 /* Education */
 .aboutEducationWrap {
 	width: 100%;

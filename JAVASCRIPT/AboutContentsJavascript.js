@@ -15,6 +15,13 @@ $(document).ready(function() {
 		}).appendTo('.SummaryInner_Summary')
 	})
 
+	// Experience List Title Section
+	$('<a/>', {
+		text: 'Experience'
+	}).css({
+		"font-size" : "30px"
+	}).appendTo('.experience_titleInner_title')
+
 	// Education List Title Section
 	$('<a/>', {
 		text: 'Educations'
