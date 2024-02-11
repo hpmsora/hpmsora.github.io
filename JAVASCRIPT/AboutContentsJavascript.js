@@ -155,7 +155,7 @@ $(document).ready(function() {
 			text: quoteText
 		}).css({
 			"text-align":"center",
-			"font":"bold 15px/17px Arial, sans-serif",
+			"font":"bold 17px/19px Arial, sans-serif",
 			"white-space":"normal",
 			"margin" : "0 auto"
 		}).appendTo('.aboutQuoteInner_Quote_Quote')
