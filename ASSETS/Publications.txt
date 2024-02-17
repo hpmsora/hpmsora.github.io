@@ -8,4 +8,6 @@ Application of Genetic Algorithms to Optimize the Storage Location of Products i
 
 Optimizing the Product Locations in Automated Cube Storage Warehouse Using an Enhanced Genetic Algorithm$WY Ha, K-Y. Cho, CS Han, JL Cho, H Lee$International Conference on Robot Intelligence Technology and Applications$https://link.springer.com/chapter/10.1007/978-3-030-97672-9_52$$$$
 
-Optimization of Cube Storage Warehouse Scheduling Using Genetic Algorithms$WY Ha, Z-P Jiang$2023 IEEE 19th International Conference on Automation Science and Engineering (CASE)$https://ieeexplore.ieee.org/abstract/document/10260388?casa_token=RyxQcSwisZUAAAAA:xyVBVWJZ6XmX4vVcKqFaJCFLZ8TCyOfMNzli9djimoWe7IJjcKBpnd0rtlphl5V847AX7I8
+Optimization of Cube Storage Warehouse Scheduling Using Genetic Algorithms$WY Ha, Z-P Jiang$2023 IEEE 19th International Conference on Automation Science and Engineering (CASE)$https://ieeexplore.ieee.org/abstract/document/10260388?casa_token=RyxQcSwisZUAAAAA:xyVBVWJZ6XmX4vVcKqFaJCFLZ8TCyOfMNzli9djimoWe7IJjcKBpnd0rtlphl5V847AX7I8$$$$
+
+Automated Lane Changing Through Learning-Based Control: An Experimental Study$WY Ha, S Chakraborty, Y Yu, S Ghasemi, Z-P Jiang$2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)$https://ieeexplore.ieee.org/abstract/document/10422053?casa_token=8iUa7OV1PssAAAAA:R6AJL68pMJPDuzTplOSrcnn2KFKQTDfeLrc0s_MbgY8wp27i_QNNE1wT1iYJnI4_O5VJZYM
