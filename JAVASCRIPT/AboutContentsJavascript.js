@@ -32,12 +32,12 @@ $(document).ready(function() {
 		for (index = dataList.length - 1; index >= 0 ; index--) {
 			experiencesInfoList = dataList[index].split('$');
 			experiencesCompany = experiencesInfoList[0];
-			experiencesLocation = experiencesInfoList[0];
-			experiencesWorkType = experiencesInfoList[0];
-			experiencesTitle = experiencesInfoList[0];
-			experiencesStart = experiencesInfoList[0];
-			experiencesEnd = experiencesInfoList[0];
-			experiencesEndDetails = experiencesInfoList[0];
+			experiencesLocation = experiencesInfoList[1];
+			experiencesWorkType = experiencesInfoList[2];
+			experiencesTitle = experiencesInfoList[3];
+			experiencesStart = experiencesInfoList[4];
+			experiencesEnd = experiencesInfoList[5];
+			experiencesEndDetails = experiencesInfoList[6];
 
 			experiencesInfo =
 			"<span style='font-weight:bold'> " + experiencesCompany + "</span>"
