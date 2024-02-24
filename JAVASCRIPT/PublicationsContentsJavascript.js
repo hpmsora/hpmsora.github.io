@@ -7,7 +7,7 @@ $(document).ready(function() {
 	}).appendTo('.paper_titleInner_title')
 
 	// Paper List Section
-	$.get('/ASSETS/Publications.txt', function(data) {
+	$.get('/ASSETS/PUBPLICATIONS/Publications.txt', function(data) {
 		var dataList = data.split('$$$$');
 		var newDataList = [];
 		var index;

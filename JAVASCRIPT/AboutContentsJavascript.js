@@ -7,7 +7,7 @@ $(document).ready(function() {
 	}).appendTo('.NameInner_Name')
 
 	// Summary Section
-	$.get('/ASSETS/Summary.txt', function(data) {
+	$.get('/ASSETS/ETC/Summary.txt', function(data) {
 		$('<a/>', {
 			html: data
 		}).css({
@@ -33,7 +33,7 @@ $(document).ready(function() {
 	}).appendTo('.education_titleInner_title')
 
 	// Education Section
-	$.get('/ASSETS/Education.txt', function(data) {
+	$.get('/ASSETS/EDUCATION/Education.txt', function(data) {
 		var dataList = data.split('$$$$');
 		var newDataList = [];
 		var index;
@@ -122,7 +122,7 @@ $(document).ready(function() {
 	// Certification - END   ------------------------------------------------------------------------
 
 	// Quote Section
-	$.get('/ASSETS/Quotes.txt', function(data) {
+	$.get('/ASSETS/ETC/Quotes.txt', function(data) {
 		var dataList = data.split('$$$$');
 		var quoteAndAuthors = dataList[Math.floor(Math.random() * dataList.length)].split('$');
 		var quoteText = quoteAndAuthors[0];
@@ -180,7 +180,7 @@ $(document).ready(function() {
 	// Resume Button
 	$('<a/>', {
 		class: 'aboutResumeButton',
-		href: '/ASSETS/ResumeWonYongHa.pdf',
+		href: '/ASSETS/ETC/ResumeWonYongHa.pdf',
 		target: '_blank',
 		text: 'RESUME'
 	}).appendTo('.aboutResumeButtonInner_Button')
