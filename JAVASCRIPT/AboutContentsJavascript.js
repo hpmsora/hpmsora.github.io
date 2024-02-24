@@ -43,12 +43,11 @@ $(document).ready(function() {
 			"<span style='font-weight:bold'> " + experiencesCompany + "</span>"
 			+ "<span>, " + experiencesLocation + "</span>"
 			+ "<span>, " + experiencesWorkType + "</span>"
-			+ "</br>"
-			+ "<span> " + experiencesTitle + "</span>"
-			+ "</br>"
 			+ "<span> (" + experiencesStart + "</span>"
 			+ "<span>" + " - " + "</span>"
 			+ "<span> " + experiencesEnd + ")</span>"
+			+ "</br>"
+			+ "<span> " + experiencesTitle + "</span>"
 			+ "</br>"
 			+ "<span> " + experiencesEndDetails + "</span>";
 
