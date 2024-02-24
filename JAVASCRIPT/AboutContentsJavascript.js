@@ -22,6 +22,53 @@ $(document).ready(function() {
 	}).css({
 		"font-size" : "30px"
 	}).appendTo('.experience_titleInner_title')
+
+	// Experience Section
+	$.get('/ASSETS/EXPERIENCES/Experiences.txt', function(data) {
+		var dataList = data.split('$$$$');
+		var newDataList = [];
+		var index;
+
+		for (index = dataList.length - 1; index >= 0 ; index--) {
+			experiencesInfoList = dataList[index].split('$');
+			experiencesCompany = experiencesInfoList[0];
+			experiencesLocation = experiencesInfoList[0];
+			experiencesWorkType = experiencesInfoList[0];
+			experiencesTitle = experiencesInfoList[0];
+			experiencesStart = experiencesInfoList[0];
+			experiencesEnd = experiencesInfoList[0];
+			experiencesEndDetails = experiencesInfoList[0];
+
+			experiencesInfo =
+			"<span style='font-weight:bold'> " + experiencesCompany + "</span>"
+			+ "<span>, " + experiencesLocation + "</span>"
+			+ "<span>, " + experiencesWorkType + "</span>"
+			+ "</br>"
+			+ "<span> " + experiencesTitle + "</span>"
+			+ "</br>"
+			+ "<span> (" + experiencesStart + "</span>"
+			+ "<span>" + " - " + "</span>"
+			+ "<span> " + experiencesEnd + ")</span>"
+			+ "</br>"
+			+ "<span> " + experiencesEndDetails + "</span>";
+
+			$('<p/>', {
+				class: 'projectList',
+				html: experiencesInfo
+			}).css({
+				"text-align":"left",
+				"font":"15px/17px Arial, sans-serif",
+				"white-space":"normal"
+			}).appendTo(
+				$('<div/>', {
+					id: 'education' + index
+				}).css({
+					"width" : "100%",
+					"margin-bottom" : "30px"
+				}).appendTo('.experienceInner_Experience')
+			)
+		}
+	})
 	// Experience - END   ------------------------------------------------------------------------
 
 	// Education - START ------------------------------------------------------------------------
