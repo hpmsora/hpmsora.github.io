@@ -15,13 +15,16 @@ $(document).ready(function() {
 		}).appendTo('.SummaryInner_Summary')
 	})
 
+	// Experience - START ------------------------------------------------------------------------
 	// Experience List Title Section
 	$('<a/>', {
 		text: 'Experience'
 	}).css({
 		"font-size" : "30px"
 	}).appendTo('.experience_titleInner_title')
+	// Experience - END   ------------------------------------------------------------------------
 
+	// Education - START ------------------------------------------------------------------------
 	// Education List Title Section
 	$('<a/>', {
 		text: 'Educations'
@@ -71,7 +74,9 @@ $(document).ready(function() {
 			)
 		}
 	})
+	// Education - END   ------------------------------------------------------------------------
 
+	// Certification - START ------------------------------------------------------------------------
 	// Certification List Title Section
 	$('<a/>', {
 		text: 'Certifications'
@@ -114,6 +119,7 @@ $(document).ready(function() {
 			)
 		}
 	})
+	// Certification - END   ------------------------------------------------------------------------
 
 	// Quote Section
 	$.get('/ASSETS/Quotes.txt', function(data) {
