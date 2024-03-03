@@ -18,14 +18,14 @@
 .main_navigation_class li span a {
     width: 100%;
     display: inline-block;
-    color: #333;
+    color: #858585;
     text-align: center;
     text-decoration: none;
     font-size: 15px;
 }
 
 .main_navigation_class li span a:hover {
-    background-color: #555;
+    color: #2B2B2B;
 }
 
 .navCMobile {
