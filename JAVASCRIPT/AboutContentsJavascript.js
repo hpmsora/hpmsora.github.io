@@ -41,11 +41,10 @@ $(document).ready(function() {
 
 			experiencesInfo =
 			"<span style='font-weight:bold'> " + experiencesTitle + "</span>"
-			+ "<span style='float:right'> " + experiencesStart 
-			+ " - "
-			+ experiencesEnd + "</span>"
+			+ "<span style='float:right'> " + experiencesStart + " - " + experiencesEnd + "</span>"
 			+ "</br>"
 			+ "<span> " + experiencesCompany + "</span>"
+			+ "</br>"
 			+ "<span>, " + experiencesLocation + "</span>"
 			+ "<span>, " + experiencesWorkType + "</span>"
 			+ "</br>"
@@ -96,9 +95,7 @@ $(document).ready(function() {
 			educationInfo =
 			"<a style='text-decoration: none; color: inherit'>" + "<span style='font-weight:bold'> " + educationInstitute + "</span></a>"
 			+ "<span> " + educationDepartment + "</span>"
-			+ "<span>" + educationStart
-			+ " - "
-			+ educationEnd + "</span>"
+			+ "<span style='float:right'>" + educationStart + " - " + educationEnd + "</span>"
 			+ "</br>"
 			+ "<span style='font-style:italic'>" + educationDegree + "</span>"
 			+ "<span> " + educationMajor + "</span>";
