@@ -40,14 +40,14 @@ $(document).ready(function() {
 			experiencesEndDetails = experiencesInfoList[6];
 
 			experiencesInfo =
-			"<span style='font-weight:bold'> " + experiencesCompany + "</span>"
+			"<span style='font-weight:bold'> " + experiencesTitle + "</span>"
+			+ "<span style='float:right'> " + experiencesStart 
+			+ " - "
+			+ experiencesEnd + "</span>"
+			+ "</br>"
+			+ "<span> " + experiencesCompany + "</span>"
 			+ "<span>, " + experiencesLocation + "</span>"
 			+ "<span>, " + experiencesWorkType + "</span>"
-			+ "<span style='float:right'>  (" + experiencesStart 
-			+ " - "
-			+ experiencesEnd + ")</span>"
-			+ "</br>"
-			+ "<span> " + experiencesTitle + "</span>"
 			+ "</br>"
 			+ "<span> " + experiencesEndDetails + "</span>";
 
