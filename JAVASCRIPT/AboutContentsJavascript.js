@@ -96,9 +96,9 @@ $(document).ready(function() {
 			educationInfo =
 			"<a style='text-decoration: none; color: inherit'>" + "<span style='font-weight:bold'> " + educationInstitute + "</span></a>"
 			+ "<span> " + educationDepartment + "</span>"
-			+ "<span> (" + educationStart + "</span>"
-			+ "<span>" + " - " + "</span>"
-			+ "<span> " + educationEnd + ")</span>"
+			+ "<span>" + educationStart
+			+ " - "
+			+ educationEnd + "</span>"
 			+ "</br>"
 			+ "<span style='font-style:italic'>" + educationDegree + "</span>"
 			+ "<span> " + educationMajor + "</span>";
