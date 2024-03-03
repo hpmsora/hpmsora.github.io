@@ -12,7 +12,7 @@ $(document).ready(function() {
 			html: data
 		}).css({
 			"font-size" : "15px",
-			"line-height" : "2"
+			"line-height" : "1.4"
 		}).appendTo('.SummaryInner_Summary')
 	})
 
