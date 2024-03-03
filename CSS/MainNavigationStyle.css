@@ -8,7 +8,7 @@
 
 .main_navigation_class li {
     float: right;
-    margin:10px, 0px;
+    margin-right: 20px;
 }
 
 .main_navigation_class li span a {
