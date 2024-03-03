@@ -45,7 +45,7 @@ $(document).ready(function() {
 			+ "</br>"
 			+ "<span> " + experiencesCompany + "</span>"
 			+ "</br>"
-			+ "<span>, " + experiencesLocation + "</span>"
+			+ "<span>" + experiencesLocation + "</span>"
 			+ "<span>, " + experiencesWorkType + "</span>"
 			+ "</br>"
 			+ "<span> " + experiencesEndDetails + "</span>";
