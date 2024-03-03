@@ -11,7 +11,8 @@ $(document).ready(function() {
 		$('<a/>', {
 			html: data
 		}).css({
-			"font-size" : "15px"
+			"font-size" : "15px",
+			"line-height" : "2"
 		}).appendTo('.SummaryInner_Summary')
 	})
 
