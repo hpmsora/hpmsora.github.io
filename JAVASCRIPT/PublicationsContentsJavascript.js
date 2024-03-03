@@ -1,9 +1,12 @@
 $(document).ready(function() {
 	// Paper List Title Section
 	$('<a/>', {
-		text: 'Published Paper'
+		text: 'Published Paper',
+		href: 'https://scholar.google.com/citations?user=wE4EulMAAAAJ&hl=en'
 	}).css({
-		"font-size" : "30px"
+		"font-size" : "30px",
+		"text-decoration" : "none",
+		"color" : "inherit"
 	}).appendTo('.paper_titleInner_title')
 
 	// Paper List Section
