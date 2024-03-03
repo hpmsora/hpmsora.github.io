@@ -43,9 +43,9 @@ $(document).ready(function() {
 			"<span style='font-weight:bold'> " + experiencesCompany + "</span>"
 			+ "<span>, " + experiencesLocation + "</span>"
 			+ "<span>, " + experiencesWorkType + "</span>"
-			+ "<span>  (" + experiencesStart + "</span>"
-			+ "<span>" + " - " + "</span>"
-			+ "<span> " + experiencesEnd + ")</span>"
+			+ "<span style='float:right'>  (" + experiencesStart 
+			+ " - "
+			+ experiencesEnd + ")</span>"
 			+ "</br>"
 			+ "<span> " + experiencesTitle + "</span>"
 			+ "</br>"
