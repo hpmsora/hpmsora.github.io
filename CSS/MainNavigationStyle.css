@@ -14,24 +14,7 @@
 .main_navigation_class li span a {
     height: 40px;
     line-height: 40px;
-    /*text-align: center;*/
 }
-
-/*#navC1_id {
-    width: 25%;
-}
-
-#navC2_id {
-    width: 25%;
-}
-
-#navC3_id {
-    width: 25%;
-}
-
-#navC4_id {
-    width: 25%;
-}*/
 
 .main_navigation_class li span a {
     width: 100%;
