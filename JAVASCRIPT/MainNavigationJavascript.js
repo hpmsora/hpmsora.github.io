@@ -10,9 +10,6 @@ $(".main_navigation_class li span a").click(function() {
     "color" : "#B1B1B1",
     "text-decoration" : "none"
   });
-  $(".main_navigation_class li span a:hover").css({
-    "color" : "#2B2B2B"
-  });
   $(this).css({
     "color" : "#2B2B2B",
     "text-decoration" : "underline"
