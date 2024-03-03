@@ -7,16 +7,16 @@
 }
 
 .main_navigation_class li {
-    float: left;
+    float: right;
 }
 
 .main_navigation_class li span a {
     height: 40px;
     line-height: 40px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
-#navC1_id {
+/*#navC1_id {
     width: 25%;
 }
 
@@ -30,7 +30,7 @@
 
 #navC4_id {
     width: 25%;
-}
+}*/
 
 .main_navigation_class li span a {
     width: 100%;
