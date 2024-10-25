@@ -182,15 +182,16 @@ $(document).ready(function() {
 		for (index = dataList.length - 1; index >= 0 ; index--) {
 			teachingAndWorkshopInfoList = dataList[index].split('$');
 			teachingAndWorkshopTitle = teachingAndWorkshopInfoList[0];
-			teachingAndWorkshopDate = teachingAndWorkshopInfoList[1];
-			teachingAndWorkshopInstitute = teachingAndWorkshopInfoList[2];
-			teachingAndWorkshopDetails = teachingAndWorkshopInfoList[3];
+			teachingAndWorkshopPosition = teachingAndWorkshopInfoList[1];
+			teachingAndWorkshopDate = teachingAndWorkshopInfoList[2];
+			teachingAndWorkshopInstitute = teachingAndWorkshopInfoList[3];
+			teachingAndWorkshopDetails = teachingAndWorkshopInfoList[4];
 
 			teachingAndWorkshopInfo =
 			"<span style='font-weight:bold'> " + teachingAndWorkshopTitle + "</span>"
 			+ "<span style='float:right'> " + teachingAndWorkshopDate + "</span>"
 			+ "</br>"
-			+ "<span> " + teachingAndWorkshopInstitute + "</span>"
+			+ "<span> " + teachingAndWorkshopPosition + ", " + teachingAndWorkshopInstitute + "</span>"
 			+ "</br>"
 			+ "<span>" + teachingAndWorkshopDetails + "</span>"
 
