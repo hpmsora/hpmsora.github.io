@@ -140,6 +140,29 @@
 	width: 100%;
 }
 
+/* Certifications */
+.aboutTeachingAndWorkshopWrap {
+	width: 100%;
+}
+
+.teachingAndWorkshop_titleInner_Up, .teachingAndWorkshop_titleInner_Down {
+	width: 100%;
+	height: 20px;
+}
+
+.teachingAndWorkshop_titleInner_title {
+	width: 100%;
+}
+
+.teachingAndWorkshopInner_Up, .teachingAndWorkshopInner_Down {
+	width: 100%;
+	height: 20px;
+}
+
+.teachingAndWorkshopInner_TeachingAndWorkshop {
+	width: 100%;
+}
+
 
 /* Quotes */
 .aboutQuotesWrap {
