@@ -144,7 +144,7 @@ $(document).ready(function() {
 			certificationInfo =
 			"<a style='text-decoration: none; color: inherit' href=/ASSETS/CERTIFICATIONS/" + certificationLink + ">" + "<span style='font-weight:bold'> " + certificationTitle + "</span></a>"
 			+ "<span style='font-style:italic'> " + certificationInstitute + "</span>"
-			+ "<span> " + certificationDate + "</span>";
+			+ "<span style='float:right'> " + certificationDate + "</span>";
 
 			$('<p/>', {
 				class: 'projectList',
