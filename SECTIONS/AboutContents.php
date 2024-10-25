@@ -47,7 +47,7 @@
 			<div class="certificationInner_Down"></div>
 		</div>
 		<div class="aboutGitActivitiesWrap">
-	    	Loading the calendar
+	    	<!--Loading the calendar-->
 		</div>
 		<div class="aboutQuotesWrap">
 			<div class="aboutQuoteInner_Up"></div>
