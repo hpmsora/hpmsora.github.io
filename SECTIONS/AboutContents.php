@@ -46,6 +46,14 @@
 			<div class="certificationInner_Certification"></div>
 			<div class="certificationInner_Down"></div>
 		</div>
+		<div class="aboutTeachingAndWorkshopWrap">
+			<div class="teachingAndWorkshop_titleInner_Up"></div>
+         	<div class="teachingAndWorkshop_titleInner_title"></div>
+         	<div class="teachingAndWorkshop_titleInner_Down"></div>
+			<div class="teachingAndWorkshopInner_Up"></div>
+			<div class="teachingAndWorkshopInner_TeachingAndWorkshop"></div>
+			<div class="teachingAndWorkshopInner_Down"></div>
+		</div>
 		<div class="aboutGitActivitiesWrap">
 	    	<!--Loading the calendar-->
 		</div>

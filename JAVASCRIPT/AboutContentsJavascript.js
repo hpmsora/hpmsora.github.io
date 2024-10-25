@@ -165,6 +165,54 @@ $(document).ready(function() {
 	})
 	// Certification - END   ------------------------------------------------------------------------
 
+	// Teaching and Workshop - START ------------------------------------------------------------------------
+	// Teaching and Workshop List Title Section
+	$('<a/>', {
+		text: 'Teaching and Workshop'
+	}).css({
+		"font-size" : "30px"
+	}).appendTo('.teachingAndWorkshop_titleInner_title')
+
+	// Teaching and Workshop Section
+	$.get('/ASSETS/TEACHINGANDWORKSHOP/TeachingAndWorkshop.txt', function(data) {
+		var dataList = data.split('$$$$');
+		var newDataList = [];
+		var index;
+
+		for (index = dataList.length - 1; index >= 0 ; index--) {
+			teachingAndWorkshopInfoList = dataList[index].split('$');
+			teachingAndWorkshopTitle = teachingAndWorkshopInfoList[0];
+			teachingAndWorkshopDate = certificationInfoList[1];
+			teachingAndWorkshopInstitute = certificationInfoList[2];
+			teachingAndWorkshopDetails = certificationInfoList[3];
+
+			teachingAndWorkshopInfo =
+			"<span style='font-weight:bold'> " + teachingAndWorkshopTitle + "</span>"
+			+ "<span style='float:right'> " + teachingAndWorkshopDate + "</span>"
+			+ "</br>"
+			+ "<span> " + teachingAndWorkshopInstitute + "</span>"
+			+ "</br>"
+			+ "<span>" + teachingAndWorkshopDetails + "</span>"
+
+			$('<p/>', {
+				class: 'projectList',
+				html: teachingAndWorkshopInfo
+			}).css({
+				"text-align":"left",
+				"font":"15px/17px Arial, sans-serif",
+				"white-space":"normal"
+			}).appendTo(
+				$('<div/>', {
+					id: 'education' + index
+				}).css({
+					"width" : "100%",
+					"margin-bottom" : "30px"
+				}).appendTo('.teachingAndWorkshopInner_TeachingAndWorkshop')
+			)
+		}
+	})
+	// Teaching and Workshop - END   ------------------------------------------------------------------------
+
 	// Quote Section
 	$.get('/ASSETS/ETC/Quotes.txt', function(data) {
 		var dataList = data.split('$$$$');
