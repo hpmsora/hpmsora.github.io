@@ -1,1 +1,1 @@
-Matlab Workshop$Invited Lecturer$Sep 2024$Marymount Manhattan College$Conducted a workshop on data visualization using MATLAB, covering Word Clouds, Distribution Graphs, Box Plots, and Scatter Plots.
+Matlab Workshop$Invited Lecturer$Oct 2024$Marymount Manhattan College$Conducted a workshop on data visualization using MATLAB, covering Word Clouds, Distribution Graphs, Box Plots, and Scatter Plots.
