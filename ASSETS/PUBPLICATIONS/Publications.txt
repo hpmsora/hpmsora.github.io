@@ -16,4 +16,4 @@ Raspberry Pi with Real-Time Kernel$WY Ha$2024 Fifteenth International Conference
 
 The Characteristics of Cube Storage: AutoStore System$WY Ha$2024 International Conference on Information and Communication Technology Convergence (ICTC)$https://ieeexplore.ieee.org/abstract/document/10826700$$$$
 
-Learning-Based State Estimation for Automated Lane-Changing$WY Ha, S Chakraborty, Xiaoyi Lin, Z-P Jiang$2024 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)$http://ieeexplore.ieee.org/abstract/document/10919550/
+Learning-Based State Estimation for Automated Lane-Changing$WY Ha, S Chakraborty, Xiaoyi Lin, Z-P Jiang$2024 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)$http://ieeexplore.ieee.org/abstract/document/10919550
