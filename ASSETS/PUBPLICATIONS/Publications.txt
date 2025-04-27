@@ -12,4 +12,6 @@ Optimization of Cube Storage Warehouse Scheduling Using Genetic Algorithms$WY Ha
 
 Automated Lane Changing Through Learning-Based Control: An Experimental Study$WY Ha, S Chakraborty, Y Yu, S Ghasemi, Z-P Jiang$2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)$https://ieeexplore.ieee.org/abstract/document/10422053?casa_token=8iUa7OV1PssAAAAA:R6AJL68pMJPDuzTplOSrcnn2KFKQTDfeLrc0s_MbgY8wp27i_QNNE1wT1iYJnI4_O5VJZYM$$$$
 
-Raspberry Pi with Real-Time Kernel$WY Ha$2024 Fifteenth International Conference on Ubiquitous and Future Networks (ICUFN)$https://ieeexplore.ieee.org/abstract/document/10625382
+Raspberry Pi with Real-Time Kernel$WY Ha$2024 Fifteenth International Conference on Ubiquitous and Future Networks (ICUFN)$https://ieeexplore.ieee.org/abstract/document/10625382$$$$
+
+The Characteristics of Cube Storage: AutoStore System$WY Ha$2021 International Conference on Information and Communication Technology Convergence (ICTC)$https://https://ieeexplore.ieee.org/abstract/document/10826700
