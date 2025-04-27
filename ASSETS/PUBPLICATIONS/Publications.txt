@@ -1,8 +1,8 @@
-Mean web development: a tutorial for educators$A German, S Salmeron, WY Ha, B Henderson$SIGITE '16: Proceedings of the 17th Annual Conference on Information Technology Education$https://ieeexplore.ieee.org/abstract/document/10260388?casa_token=r7tmyPTg7AQAAAAA:R6_xdKykb9QKwtVgB-ZMRUPls7ubluMuXV1oYjCaNJN7XPnKfp6zuhpk_S3IhmUUqayoQG4$$$$
+Mean web development: a tutorial for educators$A German, S Salmeron, WY Ha, B Henderson$SIGITE '16: Proceedings of the 17th Annual Conference on Information Technology Education$https://dl.acm.org/doi/abs/10.1145/2978192.2978247$$$$
 
-Optimizing the location of products in a warehouse using genetic algorithms$WY Ha, K-Y. Cho, CS Han, JL Cho, H Lee$2021 International Conference on Information and Communication Technology Convergence (ICTC)$https://ieeexplore.ieee.org/abstract/document/9620890?casa_token=JGATFgG2j_kAAAAA:mYR8SGiCUdkh50yv1jINjX2Wz-BgyZun0KqBjUeYMk0CtJ7ungiPtT1xlbjvibirN1le9t0$$$$
+Optimizing the location of products in a warehouse using genetic algorithms$WY Ha, K-Y. Cho, CS Han, JL Cho, H Lee$2021 International Conference on Information and Communication Technology Convergence (ICTC)$https://ieeexplore.ieee.org/abstract/document/9620890$$$$
 
-A Warehouse Scheduling Using Genetic Algorithm and Collision Index$WY Ha, L Cui, Z-P Jiang$2021 20th International Conference on Advanced Robotics (ICAR)$https://ieeexplore.ieee.org/abstract/document/9659439?casa_token=rvGud4IW6bsAAAAA:iPwT24AcJy_ZWCmYg0P6ceIhnmggLuAM_5c9UkCKMjiFPv-0AEBXkLNXtWy42WQsNGKxTww$$$$
+A Warehouse Scheduling Using Genetic Algorithm and Collision Index$WY Ha, L Cui, Z-P Jiang$2021 20th International Conference on Advanced Robotics (ICAR)$https://ieeexplore.ieee.org/abstract/document/9659439$$$$
 
 Application of Genetic Algorithms to Optimize the Storage Location of Products in Military Logistics$WY Ha, K-Y. Cho, CS Han$The Korea Institute of Military Science and Technology$https://jkimst.org/journal/view.php?number=1959$$$$
 
